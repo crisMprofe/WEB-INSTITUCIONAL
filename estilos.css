@@ -1,0 +1,196 @@
+/*botón de búsqueda*/
+form.d-flex input , button.btn{
+    font-size: small;
+}
+/*íconos del menú*/
+li.nav-item span img{
+    padding-right: 5px;
+}
+li a.nav-link:hover{
+    color:#1c0357;
+    font-weight: bold;
+    
+}
+/*carusel imágenes*/
+#carouselExampleCaptions{
+    padding-top: 10px;
+}
+
+.carousel-caption h3,h4{
+    color:#ffffff;
+        font-weight:bold;
+    }
+/*especialidades*/
+.esp{
+    color:#ffffff;
+}
+.ratio  iframe{
+    padding-top: 6px;
+}
+.card-body > p.card-text{
+    font-size: 1rem;
+    color:black;
+}
+  /*Currìcula*/
+.texto{
+    font-size: 1.5rem;
+}
+.contenido{
+    color:#180c5c;
+    font-weight: bold;
+}
+ul li{
+    font-size: 1rem;
+}
+/*Currìcula*/
+
+#modalBtn{
+    width:12rem;
+    height: 2.5rem;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+#modalBtn:hover{
+    background-color: #3009dd;
+    box-shadow: #222;
+    color:#fff;
+}
+.fondo{
+    text-shadow: #0d064b;
+    background-color: #6161f54f;
+}
+.fondo>.titulo{
+    color:rgb(22, 8, 71);
+    font-weight: bold;
+    text-shadow: #3009dd;
+}
+.modal-body .elec> li{
+    list-style-image: url(Recursos/iconos/electricidad1.png);
+}
+.modal-body li {
+    list-style-image: url(Recursos/iconos/code1.png);
+  }
+.modal-footer{
+    grid-column: 1/5;
+}
+
+
+.modal-btn{
+    text-decoration: none;
+    margin-left: 65%;
+    width:90px;
+    height: 40px;
+    color: #fff;
+    background-color: #0c033a;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid ;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight:400;
+    text-align: center;
+    transition: background-color .3s;
+}
+
+#modal-btn:hover{
+    color: #533c80;
+    background-color: #fff;
+}
+
+
+/*Galería*/
+.col figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 320px;
+    margin: auto;
+}
+
+.col figure img {
+    max-width: 320px;
+    max-height: 150px;
+}
+
+.col figure figcaption {
+    background-color: #222;
+    color: #fff;
+    font: smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.r_gal{
+    position: relative;
+    cursor:pointer;
+    overflow: hidden;
+}
+.r_gal::before{
+    content:"IPET N°379";
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-image:url(Recursos/imagenes/elec2.jpg);
+    transform: /*translate(100%)*/scale(0);
+    transition: transform .4s;
+    color:rgb(38, 33, 83);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-color: #1c0357;
+    opacity: 0.5;
+    font-size: 1.5rem;
+
+}
+.r_gal:hover::before{
+    transform: /*translate(0)*/ scale(1) rotate(360deg);
+}
+
+/*Gestión Directiva Administrativa*/
+.gestion{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.h3{
+    margin-bottom: 20px;
+}
+.h3, .col>.fuente{
+    font-weight: bold;
+    color:#ffffff;
+    
+}
+/*Historia*/
+.tituloN{
+     font-size: 2em;
+     color:#1c0357;
+     font-weight: bold;
+}
+p.historia{
+    text-align: justify;
+    padding:2%;
+}
+#ccolor{
+    background-color: #7b63f1;
+}
+/*Contacto*/
+
+.separar{
+    padding-top: 1em;
+}
+.ffinal{
+    padding-top: 1em;
+  }
+  .footer{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+      color:#ffffff;
+  }
+  .promos{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color:#ffffff;
+  }
+  }
