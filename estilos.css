@@ -44,17 +44,23 @@ ul li{
 }
 /*Currìcula*/
 
-#modalBtn{
-    width:12rem;
+#modalBtn, #btnJuego{
+    width: 12rem;
     height: 2.5rem;
     font-size:1.2rem;
     font-weight: bold;
+    background-color: #0c033a;
+    color:rgb(47, 129, 139);
+    text-align: center;
+    transition: background-color .3s;
 }
-#modalBtn:hover{
+
+#modalBtn:hover,#btnJuego:hover{
     background-color: #3009dd;
     box-shadow: #222;
     color:#fff;
 }
+
 .fondo{
     text-shadow: #0d064b;
     background-color: #6161f54f;
@@ -75,7 +81,22 @@ ul li{
 }
 
 
-.modal-btn{
+/*.modalBtn{
+    text-decoration: none;
+    margin-left: 65%;
+    width:90px;
+    height: 40px;
+    color: #fff;
+    background-color: #0c033a;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid ;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight:400;
+    text-align: center;
+    transition: background-color .3s;
+}
+#btnJuego{
     text-decoration: none;
     margin-left: 65%;
     width:90px;
@@ -91,12 +112,15 @@ ul li{
     transition: background-color .3s;
 }
 
-#modal-btn:hover{
+#modalBtn:hover{
     color: #533c80;
     background-color: #fff;
 }
 
-
+#btnJuego:hover{
+    color: #533c80;
+    background-color: #fff;
+}*/
 /*Galería*/
 .col figure {
     border: thin #c0c0c0 solid;
@@ -174,12 +198,13 @@ p.historia{
     background-color: #7b63f1;
 }
 /*Contacto*/
-
-.separar{
-    padding-top: 1em;
+.mapa{
+    padding-top: 3em;
 }
+
+/*footer*/
 .ffinal{
-    padding-top: 1em;
+    padding-top: 3em;
   }
   .footer{
     font-size: 1em;
@@ -193,4 +218,4 @@ p.historia{
     text-align: center;
     color:#ffffff;
   }
-  }
+  
