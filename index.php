@@ -610,7 +610,7 @@
 		<h4><b>Domicilio</b></h4>
 		<p>Calle Avellaneda 685</br>La Calera, Córdoba, Argentina</p>	
 		<h4 ><b>Contacto</b></h4>
-		<p >Teléfono: +54 3543 468993</br>Gmail: <a href="mailto:virtual.molet@gmail.com">virtual.molet@gmail.com</a></p>
+		<p >Teléfono: +54 3543 468993</br>Gmail: <a href="mailto:informacion.IPET379Molet@gmail.com">informacion.IPET379Molet@gmail.com</a></p>
 		<h4><b>Horario</b></h4>
 		<p >Lun-Vie: 8am-6:30pm</p>
 		</div>
