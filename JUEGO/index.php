@@ -17,7 +17,7 @@
         <div id="player"></div>
 
     </div>
-    <div><h6><i>Profe: Cristina Maia</i></h6></div>
+    
    <script src="js/script.js"></script>
 </body>
 </html>
