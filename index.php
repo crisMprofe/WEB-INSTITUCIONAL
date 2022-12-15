@@ -630,7 +630,7 @@
 			
 			</break>
 			<div class="row py-2">
-			<form action="mailto:cristinbmaia@gmail.com" method="post" enctype="text/plain" mt-2>
+			<form action="mailto:informacion.IPET379Molet@gmail.com" method="post" enctype="text/plain" mt-2>
 				<label for="validationCustom01" class="form-label">Nombre</label>
 					<input type="text" class="form-control" id="validationCustom01" name="nombre" required>
 				
