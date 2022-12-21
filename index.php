@@ -388,161 +388,161 @@
 <hr class="featurette-divider">
 <!--Galería-->
 <a name="Galeria"></a>
-      		<div class="row">
+      			<div class="row p-5">
 				<h3 class="h3 py-3">GALERÍA IPET N° 379</h3>
-				<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-					<figure>
+				<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+					
 						<img src="Recursos\imagenes\a.jpg" 
-							  alt="IPET N°379">
-				  </figure>
+							  alt="IPET N°379" width="350">
+				  
 				</div>
-				<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-					<figure>
+				<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+					
 						<img src="Recursos\imagenes\f8.jpg"
-							  alt="IPET N°379">
-				  </figure>
+							  alt="IPET N°379" width="350">
+				  
 				</div>
-				<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-					<figure>
+				<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+					
 						<img src="Recursos\imagenes\f5.jpg"
-							  alt="IPET N°379">
-				  </figure>
+							  alt="IPET N°379" width="350">
+				  
 				</div>
-				<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-					<figure>
+				<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+					
 						<img src="Recursos\imagenes\f3.jpg"
-							  alt="IPET N°379">
-				  </figure>
+							  alt="IPET N°379" width="350">
+				  
 				</div>
 				<div class="row p-5">
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-						<figure>
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+						
 							<img src="Recursos\imagenes\t.jpg"
-								  alt="IPET N°379">
-					  </figure>
+								  alt="IPET N°379" width="350">
+					  
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-						<figure>
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+						
 							<img src="Recursos\imagenes\t2.jpg"
-								  alt="IPET N°379">
-					  </figure>
+								  alt="IPET N°379" width="350">
+					  
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-						<figure>
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+						
 							<img src="Recursos\imagenes\Escuela(1).jpeg"
-								  alt="IPET N°379">
-					  </figure>
+								  alt="IPET N°379" width="350">
+					  
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
-						<figure>
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
+						
 							<img src="Recursos\imagenes\Escuela (6).jpeg"
-								  alt="IPET N°379">
-					  </figure>
+								  alt="IPET N°379" width="350">
+					  
 					</div>  
 				</div>
 					
 				<div class="row p-5">
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\Escuela (3).jpeg" 
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\f.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\g.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imag1.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
 				</div>
 				<div class="row p-5">
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imag2.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imag3.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imag4.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\f4.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
 				</div>	
 				<div class="row p-5">
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imag9.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imgA1.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imgB.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
-					<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+					<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 						<figure>
 							<img src="Recursos\imagenes\imgC.jpg"
-								  alt="IPET N°379">
+								  alt="IPET N°379" width="350">
 					  </figure>
 					</div>
 				</div>
 						
 				<div class="row p-5">
-							<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+							<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 								<figure>
 									<img src="Recursos\imagenes\imag6.jpg"
-										  alt="IPET N°379">
+										  alt="IPET N°379" width="350">
 							  </figure>
 							</div>
-							<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+							<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 								<figure>
 									<img src="Recursos\imagenes\imag7.jpg"
-										  alt="IPET N°379">
+										  alt="IPET N°379" width="350">
 							  </figure>
 							</div>
-							<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+							<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 								<figure>
 									<img src="Recursos\imagenes\imag8.jpg"
-										  alt="IPET N°379">
+										  alt="IPET N°379" width="350">
 							  </figure>
 							</div>
-							<div class="col g-col-sm-3 g-col-md-3 g-col-xl-3 r_gal">
+							<div class="col g-col-sm-12 g-col-md-3 g-col-xl-3 r_gal">
 								<figure>
 									<img src="Recursos\imagenes\imgD.jpg"
-										  alt="IPET N°379">
+										  alt="IPET N°379" width="350">
 							  </figure>
 							</div>
 						</div>	
