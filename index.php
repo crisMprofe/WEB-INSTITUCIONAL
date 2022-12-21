@@ -22,7 +22,7 @@
 	<!--Menú-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-		 <a class="navbar-brand" href="#"><img src="Recursos\iconos\LOGOIPET379.png" class="img-fluid" alt="IPET 379" width="100"></a>
+		 <a class="navbar-brand" href="#"><img src="Recursos\iconos\logoIPET379.png" class="img-fluid" alt="IPET 379" width="100"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -169,7 +169,7 @@
                 de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
                 que contribuye a la articulación e integración antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se orienta a los estudiantes para afrontar los problemas una vez que ingresen a una empreza y/o en su hogar.</p>
 				<!--Currícula modal--> 
-				<a href="#Inicio"><img src="Recursos\iconos\señala.png" width="25"/></a>
+				<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
 				<button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModalE">Currícula Educativa</button>
 				
 				<!--Modal-->
@@ -286,7 +286,7 @@
 					<p class="lead">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
 						que contribuye a la articulaci&oacuten e integraci&oacuten antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se forma a los estudiantes en el diseño y construcción de paginas web y aplicaciones.</p>
 						<!--Currícula modal--> 
-						<a href="#Inicio"><img src="Recursos\iconos\señala.png" width="25"/></a>
+						<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
 								<button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Currícula Educativa</button>
 								<button class="mt-5 mx-5 btn btn-light" id="btnJuego" type="button" onclick="location.href='JUEGO/index.php'">A jugar</button>
 
@@ -546,7 +546,7 @@
 							  </figure>
 							</div>
 						</div>	
-					<a href="#Inicio"><img src="Recursos\iconos\señala.png" width="25"/></a>	
+					<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>	
 			</div>                 
 <!--Gestion DIRECTIVA-->
 
@@ -609,7 +609,7 @@
 			</div>
 			</br>
 			</br>
-			<a href="#Inicio"><img src="Recursos\iconos\señala.png" width="25"/></a>
+			<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
 		</div>
 	<a name="Contacto"></a>
 	<div class="row py-3">
@@ -660,7 +660,7 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19273.756534593893!2d-64.35344903269056!3d-31.35481247839675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6208309d73fb%3A0x12d6fb945e3fbe23!2sIPET%20379!5e0!3m2!1ses-419!2sar!4v1606938175225!5m2!1ses-419!2sar"
 					width="350" height="300" frameborder="3" style="border:3;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapa"></iframe>		
 		</div>
-	<a href="#Inicio"><img src="Recursos\iconos\señala.png" width="25"/></a>		
+	<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>		
 	</div>
 	<footer class="ffinal">
 		<h4 class="footer">IPET 379 "ALFREDO BENOIT MOLET" - Avellaneda 685 - Centro - LA CALERA - CÓRDOBA</h4>
