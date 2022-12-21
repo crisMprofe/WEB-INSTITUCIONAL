@@ -80,58 +80,18 @@ ul li{
     grid-column: 1/5;
 }
 
-
-/*.modalBtn{
-    text-decoration: none;
-    margin-left: 65%;
-    width:90px;
-    height: 40px;
-    color: #fff;
-    background-color: #0c033a;
-    padding: 5px 25px 5px 25px;
-    border: 1px solid ;
-    border-radius: 6px;
-    font-size: 1em;
-    font-weight:400;
-    text-align: center;
-    transition: background-color .3s;
-}
-#btnJuego{
-    text-decoration: none;
-    margin-left: 65%;
-    width:90px;
-    height: 40px;
-    color: #fff;
-    background-color: #0c033a;
-    padding: 5px 25px 5px 25px;
-    border: 1px solid ;
-    border-radius: 6px;
-    font-size: 1em;
-    font-weight:400;
-    text-align: center;
-    transition: background-color .3s;
-}
-
-#modalBtn:hover{
-    color: #533c80;
-    background-color: #fff;
-}
-
-#btnJuego:hover{
-    color: #533c80;
-    background-color: #fff;
-}*/
 /*Galería*/
 .col figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 35%;
+    max-width: 33.33%;
+    max-width:35%;
     margin: auto;
 }
 
-.col figure img {
+.galeria {
     max-width: 100%;
     max-height: 100%;
 }
