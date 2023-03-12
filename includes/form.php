@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-	 <link rel="icon" type="image/png" href="Recursos\iconos\logoIPET379.png">
+	 <link rel="icon" type="image/png" href="Recursos\iconos\LOGOIPET WEB.png">
     <title>IPET 379 Alfredo B. Molet</title>
     
     <link type="text/css" rel="stylesheet" href="estilosF.css">

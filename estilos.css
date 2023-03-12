@@ -11,6 +11,42 @@ li a.nav-link:hover{
     font-weight: bold;
     
 }
+/*buscador*/
+
+.buscar{
+    outline: 0;
+    
+}
+/*#boxSearch{
+    position: fixed;
+    top: 149px;
+    left: 83%;
+    transform: translateX(-50%);
+    width: 195px;
+    background: rgb(220, 231, 238);
+    z-index: 8;
+    overflow: hidden;
+    display: none;
+    list-style:none;
+}
+
+#boxSearch li a{
+    font-size: 9px;
+    display: block;
+    width: 150px;
+    color: #777777;
+    padding: 8px 5px;
+    text-decoration:none; 
+}
+
+#boxSearch li a:hover{
+    background: #f3f3f3;
+}
+
+#boxSearch li a i{
+    margin-right: 10px;
+    color: #777777;
+}
 /*carusel imágenes*/
 #carouselExampleCaptions{
     padding-top: 10px;

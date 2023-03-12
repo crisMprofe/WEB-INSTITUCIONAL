@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-	<link rel="icon" type="image/png" href="Recursos\iconos\logoIPET379.png">
+	<link rel="icon" type="image/png" href="Recursos\iconos\LOGOIPET WEB.png">
     <title>IPET 379 Alfredo B. Molet</title>
     
     <link type="text/css" rel="stylesheet" href="estilos.css">
@@ -22,17 +22,17 @@
 	<!--Menú-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-		 <a class="navbar-brand" href="#"><img src="Recursos\iconos\logoIPET379.png" class="img-fluid" alt="IPET 379" width="100"></a>
+		 <a class="navbar-brand" href="#"><img src="Recursos\iconos\LOGOIPET WEB.png" class="img-fluid" alt="IPET 379" width="100"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-			  <a name="Inicio"></a>
-                <a class="nav-link" href="https://www.google.com.ar/"> <span class=" px-1"><img src="Recursos/iconos/home.png" class="img-thumbnail" alt="home" width="35"></span>Inicio</a>
-              </li>
-           	 	<li class="nav-item dropdown">
+				<li class="nav-item">
+				<a name="Inicio"></a>
+					<a class="nav-link" href="https://www.google.com.ar/"> <span class=" px-1"><img src="Recursos/iconos/home.png" class="img-thumbnail" alt="home" width="35"></span>Inicio</a>
+				</li>
+           		<li class="nav-item dropdown">
 					<a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class=" px-1"><img src="Recursos/iconos/menu.png" class="img-thumbnail" alt="Especialidades" width="35"></span>Especialidades</a>
 					 
 					<ul class="dropdown-menu">
@@ -53,20 +53,29 @@
 						<li><a class="dropdown-item" href="#Historia">Historia</a></li>
 					  </ul>
 				</li>
-             	<li class="nav-item">
+             	<!--li class="nav-item">
              	   <a class="nav-link" id="boton" href="includes/form.php" ><span class=" px-1"><img src="Recursos/iconos/formulario-de-contacto.png" class="img-thumbnail" alt="formulario" width="35"></span>Inscripción</a>
-             	</li>
+             	</li-->
              	<li class="nav-item">
               	  <a class="nav-link" href="#Contacto"><span class=" px-1"><img src="Recursos/iconos/comunicar.png" class="img-thumbnail" alt="contacto" width="35"></span>Contactos</a>
              	</li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-link" type="submit">Buscar</button>
-            </form>
+            
+					
+					<!--input class="form-control me-2 buscar" type="search" id="inputSearch" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-link" id="bSearch" type="submit"><img src="Recursos\iconos\lupa.ico" width="25"></button>
+					<ul id="boxSearch">
+							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Electricidad</a></li>
+							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Programación</a></li>
+							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Directora</a></li>
+							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Domicilio</a></li>
+							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Ubicacion</a></li>
+					</ul-->
+			
           </div>
         </div>
       </nav> 
+		
 	<!--Fin Menú-->
 	<!--Carrusel-->
      <div class="row">
@@ -124,6 +133,48 @@
 					</div>
 					<div class="card-body">
 					<h5 class="card-title">Novedades hoy</h5>
+					<h6 class="card-title">INICIO CICLO 2023 </h6>
+						Bienvenidos Estudiantes!!! Primer día, primeros pasos  en la escuela secundaria, 
+						el principio de un recorrido que los convertirá, en futuras Técnicas y Técnicos!!!
+						Que así sea!!!
+					<br/>
+
+
+						<!--div class="text-center">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini12023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini22023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini32023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini42023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini52023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini62023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini72023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini82023" width="250" height="250">
+							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini92023" width="250" height="250">
+						</div-->
+					<hr/>
+						<picture>
+							
+							<img src="Recursos\imagenes\foto1_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							
+							<img src="Recursos\imagenes\foto2_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							
+							<img src="Recursos\imagenes\foto3_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							
+							<img src="Recursos\imagenes\foto9_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="100">
+							
+							<img src="Recursos\imagenes\foto5_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							
+							<img src="Recursos\imagenes\foto6_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							
+							<img src="Recursos\imagenes\foto7_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							
+							<img src="Recursos\imagenes\foto8_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="350">
+							
+							
+						
+						</picture>
+
+						<hr/>
 						<h6 class="card-title">Muestra de Saberes </h6>
 						<p class="card-text">Viernes 25 de Noviembre de 9 A 14 hs estará la escuela abierta al público.  Pero a partir de las 7:30 ya estaremos trabajando en la escuela con el armado de Stand y demás. Sería bueno, debido al clima con altas temperaturas solicitar a los estudiantes que lleven agua con hielo, respetar remera de la escuela.</p>
 						<div class="row py-5 ">
@@ -288,7 +339,7 @@
 						<!--Currícula modal--> 
 						<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
 								<button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Currícula Educativa</button>
-								<button class="mt-5 mx-5 btn btn-light" id="btnJuego" type="button" onclick="location.href='JUEGO/index.php'">A jugar</button>
+								<!--button class="mt-5 mx-5 btn btn-light" id="btnJuego" type="button" onclick="location.href='JUEGO/index.php'">A jugar</button-->
 
 						<!--Modal-->
 				<div class="modal fade " id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" 	data-bs-backdrop="static">
