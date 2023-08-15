@@ -7,7 +7,7 @@
 	<meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-	<link rel="icon" type="image/png" href="Recursos\iconos\LOGOIPET WEB.png">
+	<link rel="icon" type="image/png" href="./Recursos/iconos/LOGO INSTITUCIONAL IPET 379.png">
     <title>IPET 379 Alfredo B. Molet</title>
     
     <link type="text/css" rel="stylesheet" href="estilos.css">
@@ -18,11 +18,10 @@
 </head>
 <body>
     <div class="container">
-	
-	<!--Menú-->
+        <!--Menú-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-		 <a class="navbar-brand" href="#"><img src="Recursos\iconos\LOGOIPET WEB.png" class="img-fluid" alt="IPET 379" width="100"></a>
+		 <a class="navbar-brand" href="#"><img src="./Recursos/iconos/LOGO INSTITUCIONAL IPET 379.png" class="img-fluid" alt="IPET 379" width="100"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -77,80 +76,141 @@
       </nav> 
 		
 	<!--Fin Menú-->
-	<!--Carrusel-->
+      <!--Carrusel-->
      <div class="row">
-         <div class="col col-sm-12 col-md-12 col-xl-12">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="Recursos/FONDOS/escuelaparra.jpg" role="img" aria-label="Marcador de posición: Primera diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Nuestra Escuela</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
-              
-                    <div class="carousel-caption d-none d-md-block">
-                      <h3>Nuestra Escuela</h3>
-                      <p>INSTITUTO PROVINCIAL de EDUCACIÓN TÉCNICA Nº 379</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="Recursos/FONDOS/electricidad.jpg" role="img" aria-label="Marcador de posición: segunda diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>TÉCNICO ELECTRICISTA</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
-              
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4 class="carrusel_texto">TÉCNICO ELECTRICISTA</h4>
-                      <!--p><font style="vertical-align: inherit; font-style: oblique;">Algún contenido de marcador de posición representativo para la segunda diapositiva.</font></p-->
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="Recursos/FONDOS/programacion.jpg" role="img" aria-label="Marcador de posición: Tercera diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>TÉCNICO EN PROGRAMACIÓN</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
-              
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4>TÉCNICO EN PROGRAMACIÓN</h4>
-                      <!--p><font style="vertical-align: inherit; font-style: oblique;">Algo de contenido de marcador de posición representativo para la tercera diapositiva.</font></p-->
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">próximo</span>
-                </button>
-              </div>
-         </div>
-     </div>
-	<!--Fin Carrusel-->
-		<!--Novedades-->
+        <div class="col col-sm-12 col-md-12 col-xl-12">
+           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+               <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+               </div>
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="Recursos/FONDOS/escuelaparra.jpg" role="img" aria-label="Marcador de posición: Primera diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Nuestra Escuela</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+             
+                   <div class="carousel-caption d-none d-md-block">
+                     <h3>Nuestra Escuela</h3>
+                     <p>INSTITUTO PROVINCIAL de EDUCACIÓN TÉCNICA Nº 379</p>
+                   </div>
+                 </div>
+                 <div class="carousel-item">
+                   <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="Recursos/FONDOS/electricidad.jpg" role="img" aria-label="Marcador de posición: segunda diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>TÉCNICO ELECTRICISTA</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+             
+                   <div class="carousel-caption d-none d-md-block">
+                     <h4 class="carrusel_texto">TÉCNICO ELECTRICISTA</h4>
+                     <!--p><font style="vertical-align: inherit; font-style: oblique;">Algún contenido de marcador de posición representativo para la segunda diapositiva.</font></p-->
+                   </div>
+                 </div>
+                 <div class="carousel-item">
+                   <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" src="Recursos/FONDOS/programacion.jpg" role="img" aria-label="Marcador de posición: Tercera diapositiva" preserveAspectRatio="xMidYMid slice" focusable="false"><title>TÉCNICO EN PROGRAMACIÓN</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+             
+                   <div class="carousel-caption d-none d-md-block">
+                     <h4>TÉCNICO EN PROGRAMACIÓN</h4>
+                     <!--p><font style="vertical-align: inherit; font-style: oblique;">Algo de contenido de marcador de posición representativo para la tercera diapositiva.</font></p-->
+                   </div>
+                 </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Anterior</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">próximo</span>
+               </button>
+             </div>
+        </div>
+    </div>
+   <!--Fin Carrusel-->
+
+   <!--Novedades-->
 		<div class="row">
 			<div class="col col-sm-12 col-md-12 col-xl-12">
 				<div class="card">
 					<div class="card-header enlace">
-						<h3 class="card-title">NOVEDADES</h3>
+						<h3 class="card-title novedades">NOVEDADES</h3>
 					</div>
-					<div class="card-body">
-					<h5 class="card-title">Novedades hoy</h5>
-					<h6 class="card-title">INICIO CICLO 2023 </h6>
+				<div class="card-body">
+				<h5 class="card-title">Novedades hoy</h5>
+					<div class="container mt-5">
+						<div class="card bg-transparent transparent-card">
+							<img src="./Recursos/imagenes/PEI3.jpg" class="card-img img-fluid transparent-img" alt="Imagen de fondo">
+						<div class="card-img-overlay">
+							<h3 class="card-title fw-bold color1">PEI PROYECTO EDUCATIVO INSTITUCIONAL</h3>
+							<div class="row">
+							<div class="col-sm-6">
+								<div class="card border-0 bg-transparent">
+								<div class="row g-0">
+									<div class="col-md-4">
+									<img src="./Recursos/imagenes/imgPEI1.jpg"  class="img-fluid rounded-start" alt="PEI1">
+									</div>
+									<div class="col-md-8">
+										<div class="card card-body bg-transparent color1">
+											<h5 class="card-title fw-bold color1">MISIÓN</h5>
+											<p class="card-text fs-5 text-white">Formar a nuestros estudiantes en la construcción de una ciudadanía plena que les permita construir horizontes de compromiso con la realidad y el entorno que los rodea, poniendo en práctica las capacidades propias de la formación técnica especifica que brinda nuestra escuela.</p>
+											
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="card border-0 bg-transparent">
+								<div class="row g-0">
+									<div class="col-md-8">
+										<div class="card-body">
+											<h4 class="card-title fw-bold color1">VISIÓN</h4>
+											<p class="card-text fs-5 text-white">Ser una institución educativa que propicie una educación técnica de calidad, a través de una propuesta educativa inclusiva, liderada por un equipo docente comprometido con la formación integral y el desarrollo de capacidades de los y las estudiantes que les permita tener una actitud crítica, analítica y reflexiva enmarcada en los valores humanos y ciudadanos..</p>
+											
+										</div>
+									</div>
+									<div class="col-md-4">
+									<img src="./Recursos/imagenes/PEI2.jpg"  class="img-fluid rounded-start" alt="PEI2">
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+						
+							<div class="col-sm-12 col-md-12 col-lg-12">
+								<div class="card border-0 bg-transparent transparent-card">		
+									<div class="card-body">
+									<h4 class="card-title fw-bold color1">OBJETIVOS</h4>
+											<ul class="card-text  fs-5 color1 letra ">
+												<li>Formar a los y las estudiantes en el ejercicio de una ciudadanía comprometida con su sociedad, como profesionales técnicos competentes y creativos, capaces de proyectar su futuro.</li>
+												<li>Fomentar la enseñanza y el aprendizaje atendiendo a la modalidad propia de la escuela técnica, generando un fuerte sentido de pertenencia, para generar compromiso con la propuesta.</li>
+												<li>Promover la iniciativa y la creatividad dándole al individuo amplia libertad de acción en la consecución de objetivos bien definidos</li>
+												<li>Asumir el rol que tiene cada integrante de la comunidad educativa, como parte de un equipo de trabajo, para contribuir a la formación de los y las estudiantes y al reconocimiento de la escuela en la sociedad.</li>
+												<li>Aceptar las obligaciones que tenemos para con la sociedad, reforzando nuestro lugar como formadores de ciudadanos, con una fuerte impronta de valores, responsables y comprometidos con ellos mismos y con u entorno, desde lo intelectual y social para la comunidad en la cual trabajamos.</li>
+											</ul>
+										
+									</div>
+									<div>
+									<button id="btnAbrirPDF" class="btn btn-light fs-6" >Proyecto Educativo Institucional en PDF</button>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+						</div>
+						</div>
+					</div>
+							
+				</div>
+				
+			
+
+			<div class="card-body">
+			<h6 class="card-title">INICIO CICLO 2023 </h6>
+			<div class="card-text fs-4">
 						Bienvenidos Estudiantes!!! Primer día, primeros pasos  en la escuela secundaria, 
 						el principio de un recorrido que los convertirá, en futuras Técnicas y Técnicos!!!
 						Que así sea!!!
-					<br/>
-
-
-						<!--div class="text-center">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini12023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini22023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini32023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini42023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini52023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini62023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini72023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini82023" width="250" height="250">
-							<img src="Recursos\imagenes\foto1_23.jpg" class="rounded" alt="ini92023" width="250" height="250">
-						</div-->
+					<br/> 
+						
 					<hr/>
 						<picture>
 							
@@ -168,29 +228,14 @@
 							
 							<img src="Recursos\imagenes\foto7_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 							
-							<img src="Recursos\imagenes\foto8_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="350">
-							
-							
+							<img src="Recursos\imagenes\foto8_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 						
 						</picture>
-
-						<hr/>
-						<h6 class="card-title">Muestra de Saberes </h6>
-						<p class="card-text">Viernes 25 de Noviembre de 9 A 14 hs estará la escuela abierta al público.  Pero a partir de las 7:30 ya estaremos trabajando en la escuela con el armado de Stand y demás. Sería bueno, debido al clima con altas temperaturas solicitar a los estudiantes que lleven agua con hielo, respetar remera de la escuela.</p>
-						<div class="row py-5 ">
-							<div class="col col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-							<div class="col col-sm-12 col-md-8 col-lg-8 col-xl-8">
-								<div class="ratio ratio-21x9">
-									<iframe src="Recursos\videos\Muestra MOLET.mp4" title="Muesta" allowfullscreen></iframe>
-								</div>
-							</div>
-							<div class="col col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
-						</div>
+					</div>
+				
 						
-						
-						
-					<h6 class="card-title">15 de noviembre dia de la educación técnica </h6>
-					<p class="card-text">#ETP | ¡Feliz Día de la Educación Técnica!
+					<h5 class="card-title mt-2">15 de noviembre dia de la educación técnica </h5>
+					<p class="card-text fw-bold fs-5">#ETP | ¡Feliz Día de la Educación Técnica!
 
 						📆 Hoy celebramos el Día de la Educación Técnica en conmemoración de la creación, en 1959, del Consejo Nacional de Educación Técnica (CONET). Este organismo tuvo como objetivo orientar la creación de escuelas técnicas y de formación en oficios en todo el país, en el marco del desarrollo de la industria nacional.
 						
@@ -202,240 +247,238 @@
 						
 						 🎊 ¡FELIZ DÍA!</p>
 					<a target="_blank" href="https://www.youtube.com/watch?v=nC7yFnKD4l8&ab_channel=Fundaci%C3%B3nMoviPort" class="btn btn-primary">Por si querés saber mas de educación técnica</a>
-					</div>
-					
 				</div>
-					
+				</div>
 			</div>
 		</div>
-<!--Especialidades-->
+        <!--Especialidades-->
 <hr class="featurette-divider">
-        <div class="row featurette">
+<div class="row featurette">
 
-			<h3 class="esp">ESPECIALIDADES</h3>
-			<a name="Electricidad"></a>
-            <div class="col-md-7">
-              <h2 class="featurette-heading fw-normal lh-1">T&EacuteCNICO ELECTRICISTA<span class="text-muted px-2">Instalaciones electricas</span></h2>
-              <p class="lead">El perfil del Técnico Electricista articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área
-                de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
-                que contribuye a la articulación e integración antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se orienta a los estudiantes para afrontar los problemas una vez que ingresen a una empreza y/o en su hogar.</p>
-				<!--Currícula modal--> 
-				<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
-				<button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModalE">Currícula Educativa</button>
-				
-				<!--Modal-->
-				<div class="modal fade " id="miModalE" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" 	data-bs-backdrop="static">
-					<!--tabindex para ocultar con hidden y area labeledby referencia la título-->
-					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-						<div class="modal-content">
-								<div class="modal-header fondo">
-									<h2 class="modal-title titulo" id="modalTitle">Currícula Técnico Electricista</h2>
-									<button type="button" class="btn-close colorx" data-bs-dismiss="modal" aria-label="Close"></button>
-								</div>
-								<div class="modal-body texto">
-										<div class="container-fluid">
-											<div class="row contenido">
-													<div class="col-md-3 ms-auto">
-														4º
-														<ul class="elec">
-														<li>Lengua y Literatura</li>
-														<li>Biología</li>
-														<li>Geografía</li>
-														<li>Historia</li>
-														<li>Inglés</li>
-														<li>Educación Artística</li>
-														<li>Educación Física</li>
-														<li>Matemática</li>
-														<li>Física</li>
-														<li>Química</li>
-														<li>Electrotecnica</li>
-														<li>Instalaciones Electricas I</li>
-														<li>Mediciones Electricas</li>
-														<li>Proyecto y Representación Gráfica I</li>
-												
-														</ul>					 
-													</div>
-													<div class="col-md-3 ms-auto">
-														5°
-														<ul class="elec">
-														<li>Lengua y Literatura</li>
-														<li>Psicología</li>
-														<li>Geografía</li>
-														<li>Historia</li>
-														<li>Inglés</li>
-														<li>Educación Artística</li>
-														<li>Educación Física</li>
-														<li>Matemática</li>
-														<li>Física</li>
-														<li>Química</li>
-														<li>Electronica</li>
-														<li> Máquinas Eléctricas I</li>
-														<li>Instalaciones Electricas II </li>
-														<li>Mediciones Electricas II</li>
-														<li>Proyecto y Representación Gráfica I</li>
+    <h3 class="esp">ESPECIALIDADES</h3>
+    <a name="Electricidad"></a>
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">T&EacuteCNICO ELECTRICISTA<span class="text-muted px-2">Instalaciones electricas</span></h2>
+      <p class="lead">El perfil del Técnico Electricista articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área
+        de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
+        que contribuye a la articulación e integración antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se orienta a los estudiantes para afrontar los problemas una vez que ingresen a una empreza y/o en su hogar.</p>
+        <!--Currícula modal--> 
+        <a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
+        <button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModalE">Currícula Educativa</button>
+        
+        <!--Modal-->
+        <div class="modal fade " id="miModalE" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" 	data-bs-backdrop="static">
+            <!--tabindex para ocultar con hidden y area labeledby referencia la título-->
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                        <div class="modal-header fondo">
+                            <h2 class="modal-title titulo" id="modalTitle">Currícula Técnico Electricista</h2>
+                            <button type="button" class="btn-close colorx" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body texto">
+                                <div class="container-fluid">
+                                    <div class="row contenido">
+                                            <div class="col-md-3 ms-auto">
+                                                4º
+                                                <ul class="elec">
+                                                <li>Lengua y Literatura</li>
+                                                <li>Biología</li>
+                                                <li>Geografía</li>
+                                                <li>Historia</li>
+                                                <li>Inglés</li>
+                                                <li>Educación Artística</li>
+                                                <li>Educación Física</li>
+                                                <li>Matemática</li>
+                                                <li>Física</li>
+                                                <li>Química</li>
+                                                <li>Electrotecnica</li>
+                                                <li>Instalaciones Electricas I</li>
+                                                <li>Mediciones Electricas</li>
+                                                <li>Proyecto y Representación Gráfica I</li>
+                                        
+                                                </ul>					 
+                                            </div>
+                                            <div class="col-md-3 ms-auto">
+                                                5°
+                                                <ul class="elec">
+                                                <li>Lengua y Literatura</li>
+                                                <li>Psicología</li>
+                                                <li>Geografía</li>
+                                                <li>Historia</li>
+                                                <li>Inglés</li>
+                                                <li>Educación Artística</li>
+                                                <li>Educación Física</li>
+                                                <li>Matemática</li>
+                                                <li>Física</li>
+                                                <li>Química</li>
+                                                <li>Electronica</li>
+                                                <li> Máquinas Eléctricas I</li>
+                                                <li>Instalaciones Electricas II </li>
+                                                <li>Mediciones Electricas II</li>
+                                                <li>Proyecto y Representación Gráfica I</li>
 
-														</ul>
-														
-													</div>
-													<div class="col-md-3 ms-auto">
-														6°
-														<ul class="elec">
-														<li>Lengua y Literatura</li>
-														<li>Filosofía</li>
-														<li>Ciudadanía y Política</li>
-														<li>Inglés</li>
-														<li>Educación Artística (teatro)</li>
-														<li>Educación Física</li>
-														<li>Análisis Matemático</li>
-														<li>Economía y Gestión de la Prod. Industrial</li>
-														<li>Mecanismos y Elementos de Máquinas</li>
-														<li>Maquinas Electricas II</li>
-														<li>Instalaciones Electricas III</li>
-														<li>Automatización Industrial I</li>
-														<li>Electronica Industrial </li>
-														<li> Proyecto y Representación Gráfica III</li>
-														
-														</ul>
-													</div>
-													<div class="col-md-3 ms-auto">
-														7°
-														<ul class="elec">
-														<li>Inglés Técnico</li>
-														<li>Emprendimientos</li>
-														<li>Marco Jurídico de las Organizaciones</li>
-														<li>Higiene y Seguridad Laboral</li>
-														<li>Centrales y canalizaciones Electricas</li>
-														<li>Instalaciones Electricas IV</li>
-														<li>Automatización Industrial II</li>
-														<li>Economía y Gestión de la Produccion Industrial</li>
-														<li>Electronica Industrial II</li>
-														<li>Formación en Ambiente de Trabajo</li>
-														</ul>
-													</div>
-											</div>
-										</div>
-								</div>
-						</div>
-					</div>
-				</div><!--fin Modal-->	
-					 
+                                                </ul>
+                                                
+                                            </div>
+                                            <div class="col-md-3 ms-auto">
+                                                6°
+                                                <ul class="elec">
+                                                <li>Lengua y Literatura</li>
+                                                <li>Filosofía</li>
+                                                <li>Ciudadanía y Política</li>
+                                                <li>Inglés</li>
+                                                <li>Educación Artística (teatro)</li>
+                                                <li>Educación Física</li>
+                                                <li>Análisis Matemático</li>
+                                                <li>Economía y Gestión de la Prod. Industrial</li>
+                                                <li>Mecanismos y Elementos de Máquinas</li>
+                                                <li>Maquinas Electricas II</li>
+                                                <li>Instalaciones Electricas III</li>
+                                                <li>Automatización Industrial I</li>
+                                                <li>Electronica Industrial </li>
+                                                <li> Proyecto y Representación Gráfica III</li>
+                                                
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 ms-auto">
+                                                7°
+                                                <ul class="elec">
+                                                <li>Inglés Técnico</li>
+                                                <li>Emprendimientos</li>
+                                                <li>Marco Jurídico de las Organizaciones</li>
+                                                <li>Higiene y Seguridad Laboral</li>
+                                                <li>Centrales y canalizaciones Electricas</li>
+                                                <li>Instalaciones Electricas IV</li>
+                                                <li>Automatización Industrial II</li>
+                                                <li>Economía y Gestión de la Produccion Industrial</li>
+                                                <li>Electronica Industrial II</li>
+                                                <li>Formación en Ambiente de Trabajo</li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
             </div>
-            <div class="col-md-5">
-              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos/imagenes/elec3.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
-              
-				<div class="ratio ratio-16x9">
-					<iframe src="https://www.youtube.com/embed/JR4W8ScX0DM" title="YouTube video" allowfullscreen></iframe>
-				</div>
-                
-            </div>
+        </div><!--fin Modal-->	
+             
+    </div>
+    <div class="col-md-5">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos/imagenes/elec3.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/JR4W8ScX0DM" title="YouTube video" allowfullscreen></iframe>
         </div>
+        
+    </div>
+</div>
 <hr class="featurette-divider">
-	<a name="Programacion"></a>
-        <div class="row featurette">
-        	<div class="col-md-7 order-md-2">
-					<h2 class="featurette-heading fw-normal lh-1">T&EacuteCNICO EN PROGRAMACI&OacuteN. <span class="text-muted px-2">Aplicaciones y diseño web </span></h2>
-					<p class="lead">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
-						que contribuye a la articulaci&oacuten e integraci&oacuten antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se forma a los estudiantes en el diseño y construcción de paginas web y aplicaciones.</p>
-						<!--Currícula modal--> 
-						<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
-								<button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Currícula Educativa</button>
-								<!--button class="mt-5 mx-5 btn btn-light" id="btnJuego" type="button" onclick="location.href='JUEGO/index.php'">A jugar</button-->
+<a name="Programacion"></a>
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">T&EacuteCNICO EN PROGRAMACI&OacuteN. <span class="text-muted px-2">Aplicaciones y diseño web </span></h2>
+            <p class="lead">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
+                que contribuye a la articulaci&oacuten e integraci&oacuten antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se forma a los estudiantes en el diseño y construcción de paginas web y aplicaciones.</p>
+                <!--Currícula modal--> 
+                <a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
+                        <button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Currícula Educativa</button>
+                        <!--button class="mt-5 mx-5 btn btn-light" id="btnJuego" type="button" onclick="location.href='JUEGO/index.php'">A jugar</button-->
 
-						<!--Modal-->
-				<div class="modal fade " id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" 	data-bs-backdrop="static">
-					<!--tabindex para ocultar con hidden y area labeledby referencia la título-->
-					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-						<div class="modal-content">
-								<div class="modal-header fondo">
-									<h2 class="modal-title titulo" id="modalTitle">Currícula Técnico en Programación</h2>
-									<button type="button" class="btn-close colorx" data-bs-dismiss="modal" aria-label="Close"></button>
-								</div>
-								<div class="modal-body texto">
-										<div class="container-fluid">
-											<div class="row contenido">
-													<div class="col-md-3 ms-auto">
-														4º
-														<ul>
-														<li>Lengua y Literatura</li>
-														<li>Biología</li>
-														<li>Geografía</li>
-														<li>Historia</li>
-														<li>Inglés</li>
-														<li>Educación Artística</li>
-														<li>Educación Física</li>
-														<li>Matemática</li>
-														<li>Física</li>
-														<li>Química</li>
-														<li>Informática Aplicada I</li>
-														<li>Lógica Matemática</li>
-														<li>Programación</li>
-														</ul>					 
-													</div>
-													<div class="col-md-3 ms-auto">
-														5°
-														<ul>
-														<li>Lengua y Literatura</li>
-														<li>Psicología</li>
-														<li>Geografía</li>
-														<li>Historia</li>
-														<li>Inglés</li>
-														<li>Educación Artística</li>
-														<li>Educación Física</li>
-														<li>Matemática</li>
-														<li>Física</li>
-														<li>Química</li>
-														<li>Informática Aplicada II</li>
-														<li>Sistemas de Información</li>
-														<li>Programación II</li>
-														</ul>
-														
-													</div>
-													<div class="col-md-3 ms-auto">
-														6°
-														<ul>
-														<li>Lengua y Literatura</li>
-														<li>Filosofía</li>
-														<li>Ciudadanía y Política</li>
-														<li>Inglés</li>
-														<li>Educación Artística</li>
-														<li>Educación Física</li>
-														<li>Análisis Matemático</li>
-														<li>Economía y Gestión de la Prod. Industrial</li>
-														<li>Estadística</li>
-														<li>Recursos Humanos</li>
-														<li>Sistemas y Telecomunicaciones</li>
-														<li>Programación III</li>
-														</ul>
-													</div>
-													<div class="col-md-3 ms-auto">
-														7°
-														<ul>
-														<li>Inglés Técnico</li>
-														<li>Marco Jurídico de las Act. Industriales</li>
-														<li>Higiene y Seguridad Laboral</li>
-														<li>Base de Datos II</li>
-														<li>Laboratorio de Informática</li>
-														<li>Aplicación de Nuevas Tecnologías</li>
-														<li>Formación de Ambiente de Trabajo</li>
-														</ul>
-													</div>
-											</div>
-										</div>
-								</div>
-					</div>
-					/div>
-					</div>
-				</div><!--fin Modal-->			
-			</div>
-            <div class="col-md-5 order-md-1">
-              <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos\imagenes\prog3.jpg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="75%" height="75%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
-              
-				<div class="ratio ratio-16x9">
-					<iframe src="https://www.youtube.com/embed/IodXxGhvRcM" title="YouTube video" allowfullscreen></iframe>
-				</div>
-              
+                <!--Modal-->
+        <div class="modal fade " id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" 	data-bs-backdrop="static">
+            <!--tabindex para ocultar con hidden y area labeledby referencia la título-->
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                        <div class="modal-header fondo">
+                            <h2 class="modal-title titulo" id="modalTitle">Currícula Técnico en Programación</h2>
+                            <button type="button" class="btn-close colorx" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body texto">
+                                <div class="container-fluid">
+                                    <div class="row contenido">
+                                            <div class="col-md-3 ms-auto">
+                                                4º
+                                                <ul>
+                                                <li>Lengua y Literatura</li>
+                                                <li>Biología</li>
+                                                <li>Geografía</li>
+                                                <li>Historia</li>
+                                                <li>Inglés</li>
+                                                <li>Educación Artística</li>
+                                                <li>Educación Física</li>
+                                                <li>Matemática</li>
+                                                <li>Física</li>
+                                                <li>Química</li>
+                                                <li>Informática Aplicada I</li>
+                                                <li>Lógica Matemática</li>
+                                                <li>Programación</li>
+                                                </ul>					 
+                                            </div>
+                                            <div class="col-md-3 ms-auto">
+                                                5°
+                                                <ul>
+                                                <li>Lengua y Literatura</li>
+                                                <li>Psicología</li>
+                                                <li>Geografía</li>
+                                                <li>Historia</li>
+                                                <li>Inglés</li>
+                                                <li>Educación Artística</li>
+                                                <li>Educación Física</li>
+                                                <li>Matemática</li>
+                                                <li>Física</li>
+                                                <li>Química</li>
+                                                <li>Informática Aplicada II</li>
+                                                <li>Sistemas de Información</li>
+                                                <li>Programación II</li>
+                                                </ul>
+                                                
+                                            </div>
+                                            <div class="col-md-3 ms-auto">
+                                                6°
+                                                <ul>
+                                                <li>Lengua y Literatura</li>
+                                                <li>Filosofía</li>
+                                                <li>Ciudadanía y Política</li>
+                                                <li>Inglés</li>
+                                                <li>Educación Artística</li>
+                                                <li>Educación Física</li>
+                                                <li>Análisis Matemático</li>
+                                                <li>Economía y Gestión de la Prod. Industrial</li>
+                                                <li>Estadística</li>
+                                                <li>Recursos Humanos</li>
+                                                <li>Sistemas y Telecomunicaciones</li>
+                                                <li>Programación III</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 ms-auto">
+                                                7°
+                                                <ul>
+                                                <li>Inglés Técnico</li>
+                                                <li>Marco Jurídico de las Act. Industriales</li>
+                                                <li>Higiene y Seguridad Laboral</li>
+                                                <li>Base de Datos II</li>
+                                                <li>Laboratorio de Informática</li>
+                                                <li>Aplicación de Nuevas Tecnologías</li>
+                                                <li>Formación de Ambiente de Trabajo</li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
             </div>
+            /div>
+            </div>
+        </div><!--fin Modal-->			
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos\imagenes\prog3.jpg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="75%" height="75%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/IodXxGhvRcM" title="YouTube video" allowfullscreen></iframe>
         </div>
+      
+    </div>
+</div>
 <hr class="featurette-divider">
 <!--Galería-->
 <a name="Galeria"></a>
@@ -581,10 +624,11 @@
 					  </figure>
 					</div>
 				</div>
-				<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>	
+	<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
+  <!--Fin Galería-->
+  	
 <!--Gestion DIRECTIVA-->
-
-		<div class="container marketing">
+<div class="container marketing">
 			<div class="row">
 				<a name="Gestion"></a>
 			<h3 class="h3 py-3">GESTIÓN DIRECTIVA-ADMINISTRATIVA</h3>
@@ -622,7 +666,7 @@
 					<div class="card-header tituloN ccolor" ><i>Nuestra historia...</i></div>
 					<div class="card-body">
 					  <h5 class="card-title"><b>Así comenzamos</b></h5>
-					  <p class="card-text historia">En el año 2005, a partir de la demanda de matrícula para el CBU y la falta de espacio físico para albergar una mayor cantidad de estudiantes en el I.P.E.M. 73, “Margarita Weild de Paz” Directivos y personas allegadas a la Institución deciden buscar, dentro de la localidad de La Calera, un espacio para la apertura de una nueva Comunidad Educativa.
+					  <p class="card-text fs-5 historia">En el año 2005, a partir de la demanda de matrícula para el CBU y la falta de espacio físico para albergar una mayor cantidad de estudiantes en el I.P.E.M. 73, “Margarita Weild de Paz” Directivos y personas allegadas a la Institución deciden buscar, dentro de la localidad de La Calera, un espacio para la apertura de una nueva Comunidad Educativa.
 						En una primera instancia el lugar que se consigue es la ex comisaría, sita en Gral. Cabrera 670 de Bº 9 de julio, donde se da comienzo de las actividades el 21 de abril de 2005, bajo la Resol. Nº 1292 del 21/04/2005, contando con tres secciones
 						de 1º año, una de 2º año y dos de 3º año.
 						Los estudiantes provienen de diferentes barrios de La Calera y los docentes pertenecen al entonces IPEM 73 y otros colegios de la zona. Durante el 2005 y el 2009 la organización administrativa, pedagógica e institucional estaba a cargo de la Coordinadora Lic. Ana Pereyra. 
@@ -633,11 +677,6 @@
 						Nivel Medio en Electricidad, siendo la Segunda y última del Plan de 6 años en el 2013. También el 2012 comienza el 4to año del Plan Nuevo de 7 años, cuya Primera Promoción de Técnico Electricista es en el 2015.
 						El 15 de Agosto de 2013, se logra la desanexación y nace el IPET 379 propiamente dicho. Se asigna un cargo Administrativo y otro Directivo, que es ocupado por la Prof. Mirtha Bonzi, hasta entonces Vice directora del IPETYM 73.
 					</p>
-						
-					  <!--a href="#" class="btn btn-primary">Go somewhere</a-->
-					</div>
-					<div class="card-footer text-muted" id="ccolor">
-					 
 					</div>
 				 </div>
 			</div>
@@ -645,7 +684,9 @@
 			</br>
 			<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
 		</div>
-	<a name="Contacto"></a>
+    <!--Fin Gestión-->
+    <!--Inicio contacto-->
+    <a name="Contacto"></a>
 	<div class="row py-3">
 		<h3 class="h3">CONTACTO</h3>
 		<div class="col col-sm-12 col-md-3 col-lg-3 col-xl-3 py-2">
@@ -696,11 +737,18 @@
 		</div>
 	<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>		
 	</div>
-	<footer class="ffinal">
+	
+
+
+    <!--Inicio footer -->
+    <footer class="ffinal">
 		<h4 class="footer">IPET 379 "ALFREDO BENOIT MOLET" - Avellaneda 685 - Centro - LA CALERA - CÓRDOBA</h4>
 		<h5 class="promos">7° B - Promos 2020/2021/2022</h5>
 	</footer>
+    <!--Fin footer -->
+	<script src="eventos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	
+
+    </div>
 </body>
 </html>

@@ -1,21 +1,20 @@
 /*botón de búsqueda*/
-form.d-flex input , button.btn{
-    font-size: small;
+form.d-flex input,
+button.btn {
+  font-size: small;
 }
 /*íconos del menú*/
-li.nav-item span img{
-    padding-right: 5px;
+li.nav-item span img {
+  padding-right: 5px;
 }
-li a.nav-link:hover{
-    color:#1c0357;
-    font-weight: bold;
-    
+li a.nav-link:hover {
+  color: #1c0357;
+  font-weight: bold;
 }
 /*buscador*/
 
-.buscar{
-    outline: 0;
-    
+.buscar {
+  outline: 0;
 }
 /*#boxSearch{
     position: fixed;
@@ -48,163 +47,200 @@ li a.nav-link:hover{
     color: #777777;
 }
 /*carusel imágenes*/
-#carouselExampleCaptions{
-    padding-top: 10px;
+#carouselExampleCaptions {
+  padding-top: 10px;
 }
 
-.carousel-caption h3,h4{
-    color:#ffffff;
-        font-weight:bold;
-    }
+.carousel-caption h3,
+h4 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/*Novedades*/
+.novedades {
+  color: #0c033a;
+}
+.transparent-img {
+  opacity: 0.4; /* Cambia este valor para ajustar la opacidad */
+}
+.transparent-card {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.017
+  ); /* Ajusta la opacidad según lo necesites */
+  border: none; /* Elimina el borde */
+}
+.color1,
+.color1 > p {
+  color: rgb(244, 240, 240);
+}
+
+.letra > li {
+  font-size: 1em;
+}
+.card {
+  background: none; /* Elimina el fondo por defecto de la tarjeta */
+}
+
+.card-img-overlay {
+  padding: 1rem; /* Espaciado para el contenido superpuesto */
+}
+#botonPEI {
+  border-radius: 5px;
+  width: 5%;
+}
 /*especialidades*/
-.esp{
-    color:#ffffff;
+.esp {
+  color: #ffffff;
 }
-.ratio  iframe{
-    padding-top: 6px;
+.ratio iframe {
+  padding-top: 6px;
 }
-.card-body > p.card-text{
-    font-size: 1rem;
-    color:black;
+.card-body > p.card-text {
+  font-size: 1rem;
+  color: black;
 }
-  /*Currìcula*/
-.texto{
-    font-size: 1.5rem;
+/*Currìcula*/
+.texto {
+  font-size: 1.5rem;
 }
-.contenido{
-    color:#180c5c;
-    font-weight: bold;
+.contenido {
+  color: #180c5c;
+  font-weight: bold;
 }
-ul li{
-    font-size: 1rem;
+ul li {
+  font-size: 1rem;
 }
 /*Currìcula*/
 
-#modalBtn, #btnJuego{
-    width: 12rem;
-    height: 2.5rem;
-    font-size:1.2rem;
-    font-weight: bold;
-    background-color: #0c033a;
-    color:rgb(47, 129, 139);
-    text-align: center;
-    transition: background-color .3s;
+#modalBtn,
+#btnJuego {
+  width: 12rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #0c033a;
+  color: rgb(47, 129, 139);
+  text-align: center;
+  transition: background-color 0.3s;
 }
 
-#modalBtn:hover,#btnJuego:hover{
-    background-color: #3009dd;
-    box-shadow: #222;
-    color:#fff;
+#modalBtn:hover,
+#btnJuego:hover {
+  background-color: #3009dd;
+  box-shadow: #222;
+  color: #fff;
 }
 
-.fondo{
-    text-shadow: #0d064b;
-    background-color: #6161f54f;
+.fondo {
+  text-shadow: #0d064b;
+  background-color: #6161f54f;
 }
-.fondo>.titulo{
-    color:rgb(22, 8, 71);
-    font-weight: bold;
-    text-shadow: #3009dd;
+.fondo > .titulo {
+  color: rgb(22, 8, 71);
+  font-weight: bold;
+  text-shadow: #3009dd;
 }
-.modal-body .elec> li{
-    list-style-image: url(Recursos/iconos/electricidad1.png);
+.modal-body .elec > li {
+  list-style-image: url(Recursos/iconos/electricidad1.png);
 }
 .modal-body li {
-    list-style-image: url(Recursos/iconos/code1.png);
-  }
-.modal-footer{
-    grid-column: 1/5;
+  list-style-image: url(Recursos/iconos/code1.png);
+}
+.modal-footer {
+  grid-column: 1/5;
 }
 
 /*Galería*/
 .col figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 33.33%;
-    max-width:35%;
-    margin: auto;
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 33.33%;
+  max-width: 35%;
+  margin: auto;
 }
 
 .galeria {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.r_gal{
-    position: relative;
-    cursor:pointer;
-    overflow: hidden;
+.r_gal {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
 }
-.r_gal::before{
-    content:"IPET N°379";
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-    background-image:url(Recursos/imagenes/elec2.jpg);
-    transform: /*translate(100%)*/scale(0);
-    transition: transform .4s;
-    color:rgb(38, 33, 83);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration-color: #1c0357;
-    opacity: 0.5;
-    font-size: 1.5rem;
-
+.r_gal::before {
+  content: "IPET N°379";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(Recursos/imagenes/elec2.jpg);
+  transform: /*translate(100%)*/ scale(0);
+  transition: transform 0.4s;
+  color: rgb(38, 33, 83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration-color: #1c0357;
+  opacity: 0.5;
+  font-size: 1.5rem;
 }
-.r_gal:hover::before{
-    transform: /*translate(0)*/ scale(1) rotate(360deg);
+.r_gal:hover::before {
+  transform: /*translate(0)*/ scale(1) rotate(360deg);
 }
 
 /*Gestión Directiva Administrativa*/
-.gestion{
-    padding-bottom: 10px;
-    margin-bottom: 5px;
+.gestion {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
 }
-.h3{
-    margin-bottom: 20px;
+.h3 {
+  margin-bottom: 20px;
 }
-.h3, .col>.fuente{
-    font-weight: bold;
-    color:#ffffff;
-    
+.h3,
+.col > .fuente {
+  font-weight: bold;
+  color: #ffffff;
 }
 /*Historia*/
-.tituloN{
-     font-size: 2em;
-     color:#1c0357;
-     font-weight: bold;
+.tituloN {
+  font-size: 2em;
+  color: #1c0357;
+  font-weight: bold;
 }
-p.historia{
-    text-align: justify;
-    padding:2%;
+p.historia {
+  text-align: justify;
+  padding: 2%;
 }
-#ccolor{
-    background-color: #7b63f1;
+#ccolor {
+  background-color: #7b63f1;
 }
 /*Contacto*/
-.mapa{
-    padding-top: 3em;
+.mapa {
+  padding-top: 3em;
 }
 
 /*footer*/
-.ffinal{
-    padding-top: 3em;
-  }
-  .footer{
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-      color:#ffffff;
-  }
-  .promos{
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-    color:#ffffff;
-  }
-  
+.ffinal {
+  padding-top: 3em;
+}
+.footer {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.promos {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}

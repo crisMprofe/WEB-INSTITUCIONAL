@@ -10,7 +10,7 @@ boton.addEventListener('click', () => {
     
 }) */
 /* FILTRADO BUSCADOR*/
-const buscarF =[
+/*const buscarF =[
     {palabra: 'Electricidad'},
     {palabra: 'Programacion'},
     {palabra: 'Directora'},
@@ -32,4 +32,4 @@ const filtrar =()=>{
         }
     }
 }
-boton.addEventListener('click', filtrar);
+boton.addEventListener('click', filtrar);*/
