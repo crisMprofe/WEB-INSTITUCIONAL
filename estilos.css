@@ -1,3 +1,13 @@
+.contenedor {
+  background: rgb(223, 222, 236);
+  background: linear-gradient(
+    180deg,
+    rgba(223, 222, 236, 1) 0%,
+    rgba(118, 137, 140, 0.024247198879551846) 100%,
+    rgba(223, 223, 237, 0.004639355742296902) 100%
+  );
+}
+
 /*botón de búsqueda*/
 form.d-flex input,
 button.btn {
@@ -61,9 +71,7 @@ h4 {
 .novedades {
   color: #0c033a;
 }
-.transparent-img {
-  opacity: 0.4; /* Cambia este valor para ajustar la opacidad */
-}
+
 .transparent-card {
   background: rgba(
     255,
@@ -73,28 +81,25 @@ h4 {
   ); /* Ajusta la opacidad según lo necesites */
   border: none; /* Elimina el borde */
 }
-.color1,
-.color1 > p {
+.color1 {
   color: rgb(244, 240, 240);
 }
 
-.letra > li {
-  font-size: 1em;
-}
 .card {
   background: none; /* Elimina el fondo por defecto de la tarjeta */
 }
 
 .card-img-overlay {
-  padding: 1rem; /* Espaciado para el contenido superpuesto */
+  padding: 0.5rem; /* Espaciado para el contenido superpuesto */
 }
+
 #botonPEI {
   border-radius: 5px;
   width: 5%;
 }
 /*especialidades*/
 .esp {
-  color: #ffffff;
+  color: black;
 }
 .ratio iframe {
   padding-top: 6px;
@@ -103,6 +108,7 @@ h4 {
   font-size: 1rem;
   color: black;
 }
+
 /*Currìcula*/
 .texto {
   font-size: 1.5rem;
@@ -243,4 +249,91 @@ p.historia {
   font-weight: bold;
   text-align: center;
   color: #ffffff;
+}
+/*Novedades PEI*/
+
+@media (max-width: 996px) {
+  .textoOb {
+    display: none;
+  }
+  .textot {
+    text-shadow: #1c0357;
+  }
+}
+@media (max-width: 991px) {
+  .texto {
+    display: none;
+  }
+  .textot {
+    text-shadow: #1c0357;
+  }
+}
+@media (max-width: 767px) {
+  #imag {
+    max-width: 50%;
+  }
+  .imag {
+    max-width: 50%;
+    height: auto;
+  }
+  .textoti {
+    text-align: center;
+  }
+  .cardContenido h4 {
+    text-shadow: #1c0357;
+    font-size: 1.2rem;
+  }
+  .textoOb,
+  .texto {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  #imag {
+    width: 50%;
+  }
+  .imag img {
+    padding-top: 1%;
+    max-width: 50%;
+  }
+  .textoti {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .cardContenido h4 {
+    text-shadow: #1c0357;
+    font-size: 0.9rem;
+  }
+  .textoOb,
+  .texto {
+    display: none;
+  }
+}
+@media (max-width: 481px) {
+  #imag {
+    width: 25%;
+  }
+  .imag img {
+    padding-top: 2%;
+    max-width: 25%;
+  }
+  .textoti {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .cardContenido h4 {
+    display: none;
+  }
+  .textoOb,
+  .texto {
+    display: none;
+  }
+  .botonPEI {
+    position: relative;
+    top: -25px;
+  }
+  .boton {
+    font-size: 0.5rem;
+    max-width: 100%;
+  }
 }

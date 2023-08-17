@@ -17,7 +17,7 @@
 	
 </head>
 <body>
-    <div class="container">
+    <div class="container contenedor">
         <!--Menú-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -125,30 +125,32 @@
    <!--Fin Carrusel-->
 
    <!--Novedades-->
+        <div class="container-fluid">
 		<div class="row">
-			<div class="col col-sm-12 col-md-12 col-xl-12">
+			<div class="col col-sm-12 col-md-12">
 				<div class="card">
 					<div class="card-header enlace">
 						<h3 class="card-title novedades">NOVEDADES</h3>
+						<img src="./Recursos/iconos/LOGO INSTITUCIONAL IPET 379.png" class="img-fluid" alt="Imagen de fondo" width="50">
 					</div>
 				<div class="card-body">
 				<h5 class="card-title">Novedades hoy</h5>
-					<div class="container mt-5">
+					<div class="container-fluid mt-5">
 						<div class="card bg-transparent transparent-card">
-							<img src="./Recursos/imagenes/PEI3.jpg" class="card-img img-fluid transparent-img" alt="Imagen de fondo">
+							<img src="./Recursos/imagenes/PEI3IPET.png" class="card-img img-fluid  opacity-50" alt="Imagen de fondo">
 						<div class="card-img-overlay">
-							<h3 class="card-title fw-bold color1">PEI PROYECTO EDUCATIVO INSTITUCIONAL</h3>
+							<h3 class="card-title fw-bold text-dark textoti">PEI PROYECTO EDUCATIVO INSTITUCIONAL</h3>
 							<div class="row">
-							<div class="col-sm-6">
+							<div class="col col-sm-12 col-md-6 col-lg-6">
 								<div class="card border-0 bg-transparent">
 								<div class="row g-0">
-									<div class="col-md-4">
-									<img src="./Recursos/imagenes/imgPEI1.jpg"  class="img-fluid rounded-start" alt="PEI1">
+									<div class="col col-ms-12 col-md-4 col-lg-4">
+									<img src="./Recursos/imagenes/imgPEI1.jpg"  class="img-fluid rounded" id="imag" alt="PEI1">
 									</div>
-									<div class="col-md-8">
-										<div class="card card-body bg-transparent color1">
-											<h5 class="card-title fw-bold color1">MISIÓN</h5>
-											<p class="card-text fs-5 text-white">Formar a nuestros estudiantes en la construcción de una ciudadanía plena que les permita construir horizontes de compromiso con la realidad y el entorno que los rodea, poniendo en práctica las capacidades propias de la formación técnica especifica que brinda nuestra escuela.</p>
+									<div class="col col-sm-12 col-md-8 col-lg-8 col-xl-8">
+										<div class="card card-body border-0 bg-transparent cardContenido">
+											<h4 class="card-title fw-bold text-dark">MISIÓN</h4>
+											<p class="card-text fs-5 text-dark text-wrap texto">Formar a nuestros estudiantes en la construcción de una ciudadanía plena que les permita construir horizontes de compromiso con la realidad y el entorno que los rodea, poniendo en práctica las capacidades propias de la formación técnica especifica que brinda nuestra escuela.</p>
 											
 										</div>
 									</div>
@@ -158,16 +160,17 @@
 							<div class="col-sm-6">
 								<div class="card border-0 bg-transparent">
 								<div class="row g-0">
-									<div class="col-md-8">
-										<div class="card-body">
-											<h4 class="card-title fw-bold color1">VISIÓN</h4>
-											<p class="card-text fs-5 text-white">Ser una institución educativa que propicie una educación técnica de calidad, a través de una propuesta educativa inclusiva, liderada por un equipo docente comprometido con la formación integral y el desarrollo de capacidades de los y las estudiantes que les permita tener una actitud crítica, analítica y reflexiva enmarcada en los valores humanos y ciudadanos..</p>
+								    <div class="col col-ms-12 col-md-4  col-g-4 col-lg-4 imag">
+									<img src="./Recursos/imagenes/PEI2.jpg"  class="img-fluid rounded" alt="PEI2">
+									</div>
+									<div class="col col-sm-12 col-md-8 col-g-8 col-lg-8">
+										<div class="card-body cardContenido ">
+											<h4 class="card-title fw-bold text-dark">VISIÓN</h4>
+											<p class="card-text fs-5 text-dark text-wrap texto">Ser una institución educativa que propicie una educación técnica de calidad, a través de una propuesta educativa inclusiva, liderada por un equipo docente comprometido con la formación integral y el desarrollo de capacidades de los y las estudiantes que les permita tener una actitud crítica, analítica y reflexiva enmarcada en los valores humanos y ciudadanos..</p>
 											
 										</div>
 									</div>
-									<div class="col-md-4">
-									<img src="./Recursos/imagenes/PEI2.jpg"  class="img-fluid rounded-start" alt="PEI2">
-									</div>
+									
 								</div>
 								</div>
 							</div>
@@ -176,23 +179,23 @@
 						
 							<div class="col-sm-12 col-md-12 col-lg-12">
 								<div class="card border-0 bg-transparent transparent-card">		
-									<div class="card-body">
-									<h4 class="card-title fw-bold color1">OBJETIVOS</h4>
-											<ul class="card-text  fs-5 color1 letra ">
-												<li>Formar a los y las estudiantes en el ejercicio de una ciudadanía comprometida con su sociedad, como profesionales técnicos competentes y creativos, capaces de proyectar su futuro.</li>
-												<li>Fomentar la enseñanza y el aprendizaje atendiendo a la modalidad propia de la escuela técnica, generando un fuerte sentido de pertenencia, para generar compromiso con la propuesta.</li>
-												<li>Promover la iniciativa y la creatividad dándole al individuo amplia libertad de acción en la consecución de objetivos bien definidos</li>
-												<li>Asumir el rol que tiene cada integrante de la comunidad educativa, como parte de un equipo de trabajo, para contribuir a la formación de los y las estudiantes y al reconocimiento de la escuela en la sociedad.</li>
-												<li>Aceptar las obligaciones que tenemos para con la sociedad, reforzando nuestro lugar como formadores de ciudadanos, con una fuerte impronta de valores, responsables y comprometidos con ellos mismos y con u entorno, desde lo intelectual y social para la comunidad en la cual trabajamos.</li>
+									<div class="card-body cardContenido">
+									<h4 class="card-title fw-bold text-dark">OBJETIVOS</h4>
+											<ul class="card-text text-dark text-wrap textoOb">
+												<li class="fs-5">Formar a los y las estudiantes en el ejercicio de una ciudadanía comprometida con su sociedad, como profesionales técnicos competentes y creativos, capaces de proyectar su futuro.</li>
+												<li class="fs-5">Fomentar la enseñanza y el aprendizaje atendiendo a la modalidad propia de la escuela técnica, generando un fuerte sentido de pertenencia, para generar compromiso con la propuesta.</li>
+												<li class="fs-5">Promover la iniciativa y la creatividad dándole al individuo amplia libertad de acción en la consecución de objetivos bien definidos</li>
+												<li class="fs-5">Asumir el rol que tiene cada integrante de la comunidad educativa, como parte de un equipo de trabajo, para contribuir a la formación de los y las estudiantes y al reconocimiento de la escuela en la sociedad.</li>
+												<li class="fs-5">Aceptar las obligaciones que tenemos para con la sociedad, reforzando nuestro lugar como formadores de ciudadanos, con una fuerte impronta de valores, responsables y comprometidos con ellos mismos y con u entorno, desde lo intelectual y social para la comunidad en la cual trabajamos.</li>
 											</ul>
 										
 									</div>
-									<div>
-									<button id="btnAbrirPDF" class="btn btn-light fs-6" >Proyecto Educativo Institucional en PDF</button>
-									</div>
+									
 								</div>
 							</div>
-							
+							<div class="botonPEI mb-2">
+									<button id="btnAbrirPDF" class="btn btn-light fs-5 boton" >Proyecto Educativo Institucional <span class="text fs-6 fst-italic">PDF</span></button>
+							</div>
 							
 						</div>
 						</div>
@@ -201,9 +204,9 @@
 							
 				</div>
 				
-			
+		
 
-			<div class="card-body">
+			<div class="card-body mb-2">
 			<h6 class="card-title">INICIO CICLO 2023 </h6>
 			<div class="card-text fs-4">
 						Bienvenidos Estudiantes!!! Primer día, primeros pasos  en la escuela secundaria, 
@@ -251,6 +254,7 @@
 				</div>
 			</div>
 		</div>
+		</div>
         <!--Especialidades-->
 <hr class="featurette-divider">
 <div class="row featurette">
@@ -258,8 +262,8 @@
     <h3 class="esp">ESPECIALIDADES</h3>
     <a name="Electricidad"></a>
     <div class="col-md-7">
-      <h2 class="featurette-heading fw-normal lh-1">T&EacuteCNICO ELECTRICISTA<span class="text-muted px-2">Instalaciones electricas</span></h2>
-      <p class="lead">El perfil del Técnico Electricista articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área
+      <h2 class="featurette-heading fw-normal text-dark lh-1">T&EacuteCNICO ELECTRICISTA<span class="text-muted px-2">Instalaciones electricas</span></h2>
+      <p class="lead text-dark fs-5">El perfil del Técnico Electricista articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área
         de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
         que contribuye a la articulación e integración antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se orienta a los estudiantes para afrontar los problemas una vez que ingresen a una empreza y/o en su hogar.</p>
         <!--Currícula modal--> 
@@ -376,8 +380,8 @@
 <a name="Programacion"></a>
 <div class="row featurette">
     <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">T&EacuteCNICO EN PROGRAMACI&OacuteN. <span class="text-muted px-2">Aplicaciones y diseño web </span></h2>
-            <p class="lead">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
+            <h2 class="featurette-heading fw-normal text-dark lh-1">T&EacuteCNICO EN PROGRAMACI&OacuteN. <span class="text-muted px-2">Aplicaciones y diseño web </span></h2>
+            <p class="lead text-dark fs-5">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
                 que contribuye a la articulaci&oacuten e integraci&oacuten antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se forma a los estudiantes en el diseño y construcción de paginas web y aplicaciones.</p>
                 <!--Currícula modal--> 
                 <a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
