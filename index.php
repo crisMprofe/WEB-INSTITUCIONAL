@@ -11,7 +11,7 @@
     <title>IPET 379 Alfredo B. Molet</title>
     
     <link type="text/css" rel="stylesheet" href="estilos.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!--link type="text/css" rel="stylesheet" href="Recursos/bootstrap.min.css"-->
     <link type="text/css" rel="stylesheet" href="Recursos/carousel.css">
 	
@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="ul-navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
 				<a name="Inicio"></a>
 					<a class="nav-link" href="https://www.google.com.ar/"> <span class=" px-1"><img src="Recursos/iconos/home.png" class="img-thumbnail" alt="home" width="35"></span>Inicio</a>
@@ -59,22 +59,16 @@
               	  <a class="nav-link" href="#Contacto"><span class=" px-1"><img src="Recursos/iconos/comunicar.png" class="img-thumbnail" alt="contacto" width="35"></span>Contactos</a>
              	</li>
             </ul>
-            
-					
-					<!--input class="form-control me-2 buscar" type="search" id="inputSearch" placeholder="Buscar" aria-label="Search">
-					<button class="btn btn-outline-link" id="bSearch" type="submit"><img src="Recursos\iconos\lupa.ico" width="25"></button>
-					<ul id="boxSearch">
-							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Electricidad</a></li>
-							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Programación</a></li>
-							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Directora</a></li>
-							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Domicilio</a></li>
-							<li><a href="#"><img src="Recursos\iconos\lupa.ico" width="15">Ubicacion</a></li>
-					</ul-->
+          
 			
           </div>
         </div>
       </nav> 
-		
+
+	<!--Icono de Mano fijado para que vuelva al inicio-->
+	<a href="#Inicio"><img class="mano-volver-inicio" src="Recursos\iconos\arriba.png" width="25"/></a>
+	  
+
 	<!--Fin Menú-->
       <!--Carrusel-->
      <div class="row">
@@ -143,7 +137,7 @@
 							<div class="row">
 							<div class="col col-sm-12 col-md-6 col-lg-6">
 								<div class="card border-0 bg-transparent">
-								<div class="row g-0">
+								<div class="row g-0 div-mision-vision">
 									<div class="col col-ms-12 col-md-4 col-lg-4">
 									<img src="./Recursos/imagenes/imgPEI1.jpg"  class="img-fluid rounded" id="imag" alt="PEI1">
 									</div>
@@ -159,7 +153,7 @@
 							</div>
 							<div class="col-sm-6">
 								<div class="card border-0 bg-transparent">
-								<div class="row g-0">
+								<div class="row g-0 div-mision-vision">
 								    <div class="col col-ms-12 col-md-4  col-g-4 col-lg-4 imag">
 									<img src="./Recursos/imagenes/PEI2.jpg"  class="img-fluid rounded" alt="PEI2">
 									</div>
@@ -267,7 +261,6 @@
         de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
         que contribuye a la articulación e integración antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se orienta a los estudiantes para afrontar los problemas una vez que ingresen a una empreza y/o en su hogar.</p>
         <!--Currícula modal--> 
-        <a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
         <button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModalE">Currícula Educativa</button>
         
         <!--Modal-->
@@ -384,7 +377,6 @@
             <p class="lead text-dark fs-5">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
                 que contribuye a la articulaci&oacuten e integraci&oacuten antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se forma a los estudiantes en el diseño y construcción de paginas web y aplicaciones.</p>
                 <!--Currícula modal--> 
-                <a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
                         <button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Currícula Educativa</button>
                         <!--button class="mt-5 mx-5 btn btn-light" id="btnJuego" type="button" onclick="location.href='JUEGO/index.php'">A jugar</button-->
 
@@ -485,150 +477,48 @@
 </div>
 <hr class="featurette-divider">
 <!--Galería-->
-<a name="Galeria"></a>
-        <h3 class="h3 py-3">GALERÍA IPET N° 379</h3>
-      	        <div class="row p-2">
-				<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-					<figure>
-						<img class="galeria" src="Recursos\imagenes\a.jpg"alt="IPET N°379">
-				  </figure>
-				</div>
-				<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-					<figure>
-						<img class="galeria" src="Recursos\imagenes\f8.jpg" alt="IPET N°379">
-				  </figure>
-				</div>
-				<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-					<figure>
-						<img class="galeria" src="Recursos\imagenes\f5.jpg" alt="IPET N°379">
-				  </figure>
-				</div>
-				
-				</div>
-				<div class="row p-2">
-				   
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img class="galeria" src="Recursos\imagenes\t.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					 <div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-					<figure>
-						<img class="galeria" src="Recursos\imagenes\f3.jpg" alt="IPET N°379">
-				    </figure>
-				    </div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img class="galeria" src="Recursos\imagenes\t2.jpg"  alt="IPET N°379">
-					  </figure>
-					</div>
-					
-					
-				</div>
-					
-				<div class="row p-2">
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4  g-col-xxl-4 r_gal">
-						<figure>
-							<img class="galeria" src="Recursos\imagenes\Escuela (3).jpeg" 
-								  alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img class="galeria" src="Recursos\imagenes\f.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img  class="galeria" src="Recursos\imagenes\Escuela (6).jpeg" alt="IPET N°379">
-					  </figure>
-					</div>
-					
-				</div>
-				<div class="row p-2">
-				    <div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img src="Recursos\imagenes\g.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img src="Recursos\imagenes\Escuela(1).jpeg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imag1.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-				</div>
-				<div class="row p-2">
-					
-					<div class="col g-col-sm-12 g-col-md-4g-col-xl-4  g-col-xxl-4 r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imag3.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imag2.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4  r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imag4.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-				</div>	
-				<div class="row p-2">
-				    <div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4  r_gal">
-						<figure>
-							<img src="Recursos\imagenes\f4.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-						<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4  r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imgA1.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4  r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imag9.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-				</div>
-				<div class="row p-2">
-							<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-								<figure>
-									<img src="Recursos\imagenes\imag6.jpg" alt="IPET N°379">
-							  </figure>
-							</div>
-							<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-								<figure>
-									<img src="Recursos\imagenes\imag7.jpg" alt="IPET N°379">
-							  </figure>
-							</div>
-							<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4 r_gal">
-								<figure>
-									<img src="Recursos\imagenes\imag8.jpg"
-										  alt="IPET N°379">
-							  </figure>
-							</div>
-							
-				</div>
-				<div class="row p-2">
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4 g-col-xxl-4  r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imgB.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-					<div class="col g-col-sm-12 g-col-md-4 g-col-xl-4  g-col-xxl-4 r_gal">
-						<figure>
-							<img src="Recursos\imagenes\imgC.jpg" alt="IPET N°379">
-					  </figure>
-					</div>
-				</div>
-	<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
+    <figure class="figure-galeria">
+        <img class="showImg" src="/Recursos/imagenes/2021.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/a.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/Escuela (3).jpeg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/Escuela (6).jpeg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/Escuela(1).jpeg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f1.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f3.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f4.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f5.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f8.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/f9.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/feriaCs.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto1_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto2_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto3_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto4_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto5_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto6_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto7_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto8_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/foto9_23.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/g.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/h.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag1.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag2.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag3.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag4.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag5.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag6.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag7.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag8.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imag9.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/IMG-20211125-WA0003.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imgB.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imgC.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imgD.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/imgPEI1.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/PEI2.jpg" alt="">
+        <img class="showImg" src="/Recursos/imagenes/PEI4.jpg" alt="">
+    </figure>
   <!--Fin Galería-->
   	
 <!--Gestion DIRECTIVA-->
@@ -637,25 +527,25 @@
 				<a name="Gestion"></a>
 			<h3 class="h3 py-3">GESTIÓN DIRECTIVA-ADMINISTRATIVA</h3>
 			  <div class="col-lg-3">
-				 <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="Recursos\imagenes\Directora.jpeg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+				 <img class="bd-placeholder-img imagen-profesores" width="140" height="140" src="Recursos\imagenes\Directora.jpeg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
 				 <h4 class="fw-normal fuente py-2">Directora</h4>
 				 <p>Lic. Prof. Vanesa Carolina Díaz</p>
 				 <p>Inició su función en el cargo Directivo de nuestra escuela el 23 de Agosto del 2018</p>
 			  </div><!-- /.col-lg-4 -->
 			  <div class="col-lg-3">
-				 <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="Recursos\imagenes\ApoyoDir.jpeg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+				 <img class="bd-placeholder-img imagen-profesores" width="140" height="140" src="Recursos\imagenes\ApoyoDir.jpeg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
 				 <h4 class="fw-normal fuente py-2">Apoyo de Dirección</h4>
 				 <p>Lic. Prof. Gisel Oviedo</p>
 				 <p>Inició su función en el cargo como Apoyo de Dirección el 03 de mayo del año 2021</p>
 			  </div><!-- /.col-lg-4 -->
 			  <div class="col-lg-3">
-				 <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="Recursos/imagenes/Danisa.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+				 <img class="bd-placeholder-img imagen-profesores" width="140" height="140" src="Recursos/imagenes/Danisa.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
 				 <h4 class="fw-normal fuente py-2">Secretaria</h4>
 				 <p>Prof. Danisa Pinta</p>
 				 <p>Inició su función en el cargo de Secretaria el 9 de Octubre del año 2013.</p>
 			  </div><!-- /.col-lg-4 -->
 			  <div class="col-lg-3">
-				<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="Recursos\imagenes\CoordCurso.jpeg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+				<img class="bd-placeholder-img imagen-profesores" width="140" height="140" src="Recursos\imagenes\CoordCurso.jpeg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
 				<h4 class="fw-normal fuente py-2">Coordinadora de Curso</h4>
 				<p>Prof. &Aacutengela Tocalli</p>
 				<p>Inició su función en el cargo como Coordinadora de Curso el 11 de Octubre del año 2017</p>
@@ -686,7 +576,6 @@
 			</div>
 			</br>
 			</br>
-			<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>
 		</div>
     <!--Fin Gestión-->
     <!--Inicio contacto-->
@@ -697,7 +586,7 @@
 		<h4><b>Domicilio</b></h4>
 		<p>Calle Avellaneda 685</br>La Calera, Córdoba, Argentina</p>	
 		<h4 ><b>Contacto</b></h4>
-		<p >Teléfono: +54 3543 468993</br>Gmail: <a href="mailto:informacion.IPET379Molet@gmail.com">informacion.IPET379Molet@gmail.com</a></p>
+		<p >Teléfono: +54 3543 468993</br>Gmail: <a class='a-gmail' href="mailto:informacion.IPET379Molet@gmail.com">informacion.IPET379Molet@gmail.com</a></p>
 		<h4><b>Horario</b></h4>
 		<p >Lun-Vie: 8am-6:30pm</p>
 		</div>
@@ -738,8 +627,7 @@
 			<h4><b>Ubicación en mapa</b></h4>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19273.756534593893!2d-64.35344903269056!3d-31.35481247839675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6208309d73fb%3A0x12d6fb945e3fbe23!2sIPET%20379!5e0!3m2!1ses-419!2sar!4v1606938175225!5m2!1ses-419!2sar"
 					width="350" height="300" frameborder="3" style="border:3;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapa"></iframe>		
-		</div>
-	<a href="#Inicio"><img src="Recursos\iconos\arriba.png" width="25"/></a>		
+		</div>		
 	</div>
 	
 
@@ -751,7 +639,8 @@
 	</footer>
     <!--Fin footer -->
 	<script src="eventos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 
     </div>
 </body>
