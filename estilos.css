@@ -1,9 +1,9 @@
 .contenedor {
-  
   background-color: #252440;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg fill-opacity='0.82'%3E%3Crect fill='%23252440' width='11' height='11'/%3E%3Crect fill='%23252441' x='10' width='11' height='11'/%3E%3Crect fill='%23252443' y='10' width='11' height='11'/%3E%3Crect fill='%23262544' x='20' width='11' height='11'/%3E%3Crect fill='%23262546' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23262548' y='20' width='11' height='11'/%3E%3Crect fill='%23262549' x='30' width='11' height='11'/%3E%3Crect fill='%2326264b' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%2327264c' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%2327264e' y='30' width='11' height='11'/%3E%3Crect fill='%2327264f' x='40' width='11' height='11'/%3E%3Crect fill='%23272651' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23272752' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23272754' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23272755' y='40' width='11' height='11'/%3E%3Crect fill='%23282757' x='50' width='11' height='11'/%3E%3Crect fill='%23282758' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%2328275a' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%2328285b' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2328285d' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%2328285e' y='50' width='11' height='11'/%3E%3Crect fill='%23292860' x='60' width='11' height='11'/%3E%3Crect fill='%23292861' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23292963' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23292965' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23292966' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23292968' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23292969' x='70' width='11' height='11'/%3E%3Crect fill='%232a296b' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%232a296c' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%232a2a6e' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%232a2a6f' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%232a2a71' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%232a2a72' x='80' width='11' height='11'/%3E%3Crect fill='%232a2a74' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%232b2a76' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%232b2a77' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%232b2b79' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%232b2b7a' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%232b2b7c' x='90' width='11' height='11'/%3E%3Crect fill='%232b2b7d' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%232c2b7f' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%232c2b80' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%232c2b82' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%232c2b84' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%232c2b85' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%232d2b87' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%232d2c88' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%232d2c8a' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%232d2c8b' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%232d2c8d' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%232e2c8e' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%232e2c90' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%232e2c92' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%232e2c93' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%232f2c95' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%232f2c96' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%232f2c98' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23302c99' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23302C9B' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
+ 
 }
 
 
@@ -15,16 +15,15 @@
   width: 50px;
 }
 
-
-/*botón de búsqueda*/
-form.d-flex input,
-button.btn {
-  font-size: small;
-}
 /*íconos del menú*/
 li.nav-item span img {
-  padding-right: 5px;
+  padding-right: 2px;
+  max-width: 40px;
 }
+span #imgIcon {
+  max-width: 80px;
+}
+
 li a.nav-link{
   transition: 1s;
 }
@@ -74,7 +73,7 @@ h4 {
   border-radius: 5px;
   width: 5%;
 }
-/*especialidades*/
+
 .esp {
   color: black;
 }
@@ -85,7 +84,7 @@ h4 {
   font-size: 1rem;
   color: black;
 }
-
+/*especialidades*/
 /*Currìcula*/
 .texto {
   font-size: 1.5rem;
@@ -99,8 +98,7 @@ ul li {
 }
 /*Currìcula*/
 
-#modalBtn,
-#btnJuego {
+#modalBtn {
   width: 12rem;
   height: 2.5rem;
   font-size: 1.2rem;
@@ -136,20 +134,27 @@ ul li {
 .modal-footer {
   grid-column: 1/5;
 }
-
+div > #imgEP{
+  width: 100%;
+}
 
 
 /*Galería*/
-
-.figure-galeria{
+.contenImag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+figure{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items:last center;
   gap: 20px;
-  width: 100%;
-  height: 90vh;
+  width: 95%;
+  height:75vh;
   border: 2px solid black;
   border-radius: 10px;
   overflow: hidden;
@@ -158,26 +163,27 @@ ul li {
   -webkit-box-shadow: 15px 17px 32px 3px rgba(0,0,0,0.75);
   -moz-box-shadow: 15px 17px 32px 3px rgba(0,0,0,0.75);
   box-shadow: 15px 17px 32px 3px rgba(0,0,0,0.75);
-  background-color: #2F2679;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%232823BC' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: #030724;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23C8ACBD' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
 }
-.figure-galeria::-webkit-scrollbar{
+figure::-webkit-scrollbar{
   border-radius: 10px;
 }
-.figure-galeria::-webkit-scrollbar-thumb{
+figure::-webkit-scrollbar-thumb{
   background-color: rgb(27, 30, 36);
   border-radius: 10px;
 }
 
-.figure-galeria img{
-  z-index: 1000;
+img{
   position: relative;
-  width: 300px;
+  width: 200px;
   height: auto;
   transition: 1s;
-  border-radius: 10px;
   &:hover{
       scale: 1.05;
+      border-radius: 10px;
   }
 }
 .showImg{
@@ -185,8 +191,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   view-timeline-axis: block;
   animation-timeline: --scroll;
   animation-name: showImg;
+  animation-timing-function: ease-in-out;;
   animation-range: entry 25% cover 30%;
-  animation-fill-mode: both;
+  /*animation-fill-mode: both;*/
+  animation-duration:1s;
 }
 
 @keyframes showImg {
@@ -244,7 +252,9 @@ form label{
 .a-gmail:hover{
   color: #222;
 }
-
+#iconRS{
+  max-width: 55px;
+}
 /*footer*/
 .ffinal {
   padding-top: 3em;

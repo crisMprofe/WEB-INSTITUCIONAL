@@ -11,7 +11,7 @@
     <title>IPET 379 Alfredo B. Molet</title>
     
     <link type="text/css" rel="stylesheet" href="estilos.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!--link type="text/css" rel="stylesheet" href="Recursos/bootstrap.min.css"-->
     <link type="text/css" rel="stylesheet" href="Recursos/carousel.css">
 	
@@ -21,52 +21,52 @@
         <!--Menú-->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-		 <a class="navbar-brand" href="#"><img src="./Recursos/iconos/LOGO INSTITUCIONAL IPET 379.png" class="img-fluid" alt="IPET 379" width="100"></a>
+	      	 <a class="navbar-brand" href="#"><img src="./Recursos/iconos/LOGO INSTITUCIONAL IPET 379.png" class="img-fluid" alt="IPET 379"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="ul-navbar-nav navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item">
-				<a name="Inicio"></a>
-					<a class="nav-link" href="https://www.google.com.ar/"> <span class=" px-1"><img src="Recursos/iconos/home.png" class="img-thumbnail" alt="home" width="35"></span>Inicio</a>
-				</li>
-           		<li class="nav-item dropdown">
-					<a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class=" px-1"><img src="Recursos/iconos/menu.png" class="img-thumbnail" alt="Especialidades" width="35"></span>Especialidades</a>
-					 
-					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="#Electricidad">Electricidad</a></li>
-					  <li><a class="dropdown-item" href="#Programacion">Programación</a></li>
-					</ul>
-				</li>		
-           		<li class="nav-item">
-                <a class="nav-link" href="#Galeria"><span class=" px-1"><img src="Recursos/iconos/imagen.png" class="img-thumbnail" alt="Galería" width="35"></span>Galeria</a>
-              	</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://bloguerosdelmolet.blogspot.com/"><span class=" px-1"><img src="Recursos/iconos/blog.png" class="img-thumbnail" alt="Galería" width="35"></span>Blog</a>
-				</li>
-              	<li class="nav-item dropdown">
-                	<a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class=" px-1"><img src="Recursos/iconos/estante-para-libros.png" class="img-thumbnail" alt="nosotros" width="35"></span>Nosotros</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#Gestion">Gestion</a></li>
-						<li><a class="dropdown-item" href="#Historia">Historia</a></li>
-					  </ul>
-				</li>
-             	<!--li class="nav-item">
-             	   <a class="nav-link" id="boton" href="includes/form.php" ><span class=" px-1"><img src="Recursos/iconos/formulario-de-contacto.png" class="img-thumbnail" alt="formulario" width="35"></span>Inscripción</a>
-             	</li-->
-             	<li class="nav-item">
-              	  <a class="nav-link" href="#Contacto"><span class=" px-1"><img src="Recursos/iconos/comunicar.png" class="img-thumbnail" alt="contacto" width="35"></span>Contactos</a>
-             	</li>
-            </ul>
-          
-			
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.google.com.ar/"> <span class=" px-1"><img src="Recursos/iconos/home.png" class="img-thumbnail" alt="home"></span>Inicio</a>
+              </li>
+              <a name="Inicio"></a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class=" px-1"><img src="Recursos/iconos/menu.png" class="img-thumbnail" alt="Especialidades"></span>Especialidades</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Electricidad">Electricidad</a></li>
+                    <li><a class="dropdown-item" href="#Programacion">Programación</a></li>
+                  </ul>
+              </li>		
+              <li class="nav-item">
+                  <a class="nav-link" href="#Galeria"><span class=" px-1"><img src="Recursos/iconos/imagen.png" class="img-thumbnail" alt="Galería"></span>Galeria</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="https://bloguerosdelmolet.blogspot.com/"><span class=" px-1"><img src="Recursos/iconos/blog.png" class="img-thumbnail" alt="Galería" ></span>Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span class=" px-1"><img src="Recursos/iconos/estante-para-libros.png" class="img-thumbnail" alt="nosotros" ></span>Nosotros</a>
+                 <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Gestion">Gestion</a></li>
+                    <li><a class="dropdown-item" href="#Historia">Historia</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link" id="boton" href="./seguridad.html" ><span class="px-1"><img src="Recursos/iconos/alerta.png" class="img-thumbnail" alt="seguridad"></span>Seguridad</a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="#Contacto"><span class="px-1"><img src="Recursos/iconos/comunicar.png" class="img-thumbnail " alt="contacto"></span>Contactos</a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" id="boton" href="./Colaboradores/colaboradores.html" ><span class="px-2"><img id="imgIcon" src="Recursos/iconos/sos.jpg" class="img-thumbnail" alt="SOS"></span></a>
+            </li>
+           </ul>
           </div>
         </div>
       </nav> 
 
 	<!--Icono de Mano fijado para que vuelva al inicio-->
-	<a href="#Inicio"><img class="mano-volver-inicio" src="Recursos\iconos\arriba.png" width="25"/></a>
+	<a href="#Inicio"><img class="mano-volver-inicio" src="./Recursos/iconos/arriba.png" width="20"/></a>
 	  
 
 	<!--Fin Menú-->
@@ -93,7 +93,7 @@
              
                    <div class="carousel-caption d-none d-md-block">
                      <h4 class="carrusel_texto">TÉCNICO ELECTRICISTA</h4>
-                     <!--p><font style="vertical-align: inherit; font-style: oblique;">Algún contenido de marcador de posición representativo para la segunda diapositiva.</font></p-->
+                    
                    </div>
                  </div>
                  <div class="carousel-item">
@@ -101,7 +101,7 @@
              
                    <div class="carousel-caption d-none d-md-block">
                      <h4>TÉCNICO EN PROGRAMACIÓN</h4>
-                     <!--p><font style="vertical-align: inherit; font-style: oblique;">Algo de contenido de marcador de posición representativo para la tercera diapositiva.</font></p-->
+                    
                    </div>
                  </div>
                </div>
@@ -164,13 +164,11 @@
 											
 										</div>
 									</div>
-									
 								</div>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-						
 							<div class="col-sm-12 col-md-12 col-lg-12">
 								<div class="card border-0 bg-transparent transparent-card">		
 									<div class="card-body cardContenido">
@@ -189,17 +187,12 @@
 							</div>
 							<div class="botonPEI mb-2">
 									<button id="btnAbrirPDF" class="btn btn-light fs-5 boton" >Proyecto Educativo Institucional <span class="text fs-6 fst-italic">PDF</span></button>
-							</div>
-							
+							</div>		
 						</div>
 						</div>
 						</div>
-					</div>
-							
+					</div>	
 				</div>
-				
-		
-
 			<div class="card-body mb-2">
 			<h6 class="card-title">INICIO CICLO 2023 </h6>
 			<div class="card-text fs-4">
@@ -211,21 +204,20 @@
 					<hr/>
 						<picture>
 							
-							<img src="Recursos\imagenes\foto1_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							<img src="Recursos/imagenes/imag23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 							
-							<img src="Recursos\imagenes\foto2_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							<img src="Recursos/imagenes/imag22.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 							
-							<img src="Recursos\imagenes\foto3_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							<img src="Recursos/imagenes/imag21.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+              <img src="Recursos/imagenes/imag13.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 							
-							<img src="Recursos\imagenes\foto9_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="100">
+							<img src="Recursos/imagenes/imag19.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="100">
 							
-							<img src="Recursos\imagenes\foto5_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							<img src="Recursos/imagenes/imag18.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 							
-							<img src="Recursos\imagenes\foto6_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							<img src="Recursos/imagenes/imag15.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 							
-							<img src="Recursos\imagenes\foto7_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
-							
-							<img src="Recursos\imagenes\foto8_23.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
+							<img src="Recursos/imagenes/imag12.jpg" class="img-fluid img-thumbnail" alt="inicio2023" width="250" height="250">
 						
 						</picture>
 					</div>
@@ -253,11 +245,11 @@
 <hr class="featurette-divider">
 <div class="row featurette">
 
-    <h3 class="esp">ESPECIALIDADES</h3>
+    <h3 class="text-light">ESPECIALIDADES</h3>
     <a name="Electricidad"></a>
     <div class="col-md-7">
-      <h2 class="featurette-heading fw-normal text-dark lh-1">T&EacuteCNICO ELECTRICISTA<span class="text-muted px-2">Instalaciones electricas</span></h2>
-      <p class="lead text-dark fs-5">El perfil del Técnico Electricista articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área
+      <h2 class="featurette-heading fw-normal text-light lh-1">T&EacuteCNICO ELECTRICISTA<span class="text-muted px-2">Instalaciones electricas</span></h2>
+      <p class="lead text-light fs-5">El perfil del Técnico Electricista articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área
         de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
         que contribuye a la articulación e integración antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se orienta a los estudiantes para afrontar los problemas una vez que ingresen a una empreza y/o en su hogar.</p>
         <!--Currícula modal--> 
@@ -361,7 +353,7 @@
              
     </div>
     <div class="col-md-5">
-      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos/imagenes/elec3.jpg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto "  src="Recursos/imagenes/elec3.jpg" id="imgEP" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
       
         <div class="ratio ratio-16x9">
             <iframe src="https://www.youtube.com/embed/JR4W8ScX0DM" title="YouTube video" allowfullscreen></iframe>
@@ -373,8 +365,8 @@
 <a name="Programacion"></a>
 <div class="row featurette">
     <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal text-dark lh-1">T&EacuteCNICO EN PROGRAMACI&OacuteN. <span class="text-muted px-2">Aplicaciones y diseño web </span></h2>
-            <p class="lead text-dark fs-5">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
+            <h2 class="featurette-heading fw-normal text-light lh-1">T&EacuteCNICO EN PROGRAMACI&OacuteN. <span class="text-muted px-2">Aplicaciones y diseño web </span></h2>
+            <p class="lead text-light fs-5">El perfil del T&eacutecnico en Programaci&oacuten articula e integra conjuntos de saberes agrupados en ámbitos del conocimiento humanístico, social, científico y técnico, estructurados con un nivel mayor de especificación y contextualización en función del área de conocimiento predominante y propio de la especialidad. Esto se lleva a cabo a través de las actividades áulicas y de taller, donde el equipo docente se encarga de realizar una integración de los aprendizajes, tanto vertical como transversal,
                 que contribuye a la articulaci&oacuten e integraci&oacuten antes mencionada. Est&aacute capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo. Se forma a los estudiantes en el diseño y construcción de paginas web y aplicaciones.</p>
                 <!--Currícula modal--> 
                         <button class="mt-5 mx-5 btn btn-light" id="modalBtn" type="button" data-bs-toggle="modal" data-bs-target="#miModal">Currícula Educativa</button>
@@ -467,7 +459,7 @@
         </div><!--fin Modal-->			
     </div>
     <div class="col-md-5 order-md-1">
-      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos\imagenes\prog3.jpg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="75%" height="75%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="Recursos\imagenes\prog3.jpg"id="imgEP" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="75%" height="75%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
       
         <div class="ratio ratio-16x9">
             <iframe src="https://www.youtube.com/embed/IodXxGhvRcM" title="YouTube video" allowfullscreen></iframe>
@@ -477,50 +469,37 @@
 </div>
 <hr class="featurette-divider">
 <!--Galería-->
-    <figure class="figure-galeria">
-        <img class="showImg" src="/Recursos/imagenes/2021.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/a.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/Escuela (3).jpeg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/Escuela (6).jpeg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/Escuela(1).jpeg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f1.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f3.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f4.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f5.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f8.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/f9.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/feriaCs.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto1_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto2_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto3_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto4_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto5_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto6_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto7_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto8_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/foto9_23.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/g.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/h.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag1.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag2.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag3.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag4.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag5.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag6.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag7.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag8.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imag9.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/IMG-20211125-WA0003.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imgB.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imgC.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imgD.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/imgPEI1.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/PEI2.jpg" alt="">
-        <img class="showImg" src="/Recursos/imagenes/PEI4.jpg" alt="">
-    </figure>
-  <!--Fin Galería-->
-  	
+<a name="Galeria"></a>
+<div class="container-fluid contenImag">
+  <figure>
+    <img class="showImg" src="./Recursos/imagenes/imag1.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag2.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag3.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag4.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag5.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag6.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag7.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag8.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag9.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag10.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag11.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag14.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag16.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag17.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag20.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag26.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag27.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag18.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag29.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag30.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag31.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag32.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag33.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag34.jpg" alt="IPET 379">
+    <img class="showImg" src="./Recursos/imagenes/imag35.jpg" alt="IPET 379"> 
+</figure>
+</div>
+<!--Fin Galería-->
 <!--Gestion DIRECTIVA-->
 <div class="container marketing">
 			<div class="row">
@@ -586,7 +565,7 @@
 		<h4><b>Domicilio</b></h4>
 		<p>Calle Avellaneda 685</br>La Calera, Córdoba, Argentina</p>	
 		<h4 ><b>Contacto</b></h4>
-		<p >Teléfono: +54 3543 468993</br>Gmail: <a class='a-gmail' href="mailto:informacion.IPET379Molet@gmail.com">informacion.IPET379Molet@gmail.com</a></p>
+		<p >Teléfono: +54 3543 468993</br>Gmail: <a class='a-gmail text-light' href="mailto:informacion.IPET379Molet@gmail.com">informacion.IPET379Molet@gmail.com</a></p>
 		<h4><b>Horario</b></h4>
 		<p >Lun-Vie: 8am-6:30pm</p>
 		</div>
@@ -594,29 +573,29 @@
 		<div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4 py-2">
 			<div class="row py-2">
 				<div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4 px-3 py-2">
-					<a href="https://www.facebook.com/groups/356053711237554"><img class="mx-2" src="Recursos/iconos/facebook.png" width="50" alt="facebook"></a>
+					<a href="https://www.facebook.com/groups/356053711237554"><img class="mx-2" src="Recursos/iconos/facebook.png" id="iconRS"  alt="facebook"></a>
 				</div>
 				<div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4 px-3 py-2">
-					<a href="#"><img class="mx-2" src="Recursos/iconos/whatsapp.png" width="50"alt="whatssap"></a>
+					<a href="#"><img class="mx-2" id="iconRS" src="Recursos/iconos/whatsapp.png" alt="whatssap"></a>
 				</div>
 				<div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4 px-2 py-2">
-					<a href="https://www.instagram.com/ipet379molet/"><img class="mx-2" src="Recursos/iconos/instagram.png" width="55" alt="ig"></a>
+					<a href="https://www.instagram.com/ipet379molet/"><img class="mx-2" src="Recursos/iconos/instagram.png" id="iconRS" alt="ig"></a>
 				</div>
 			</div>
 			
 			</break>
 			<div class="row py-2">
 			<form action="mailto:informacion.IPET379Molet@gmail.com" method="post" enctype="text/plain" mt-2>
-				<label for="validationCustom01" class="form-label">Nombre</label>
+				<label for="validationCustom01" class="form-label text-light">Nombre</label>
 					<input type="text" class="form-control" id="validationCustom01" name="nombre" required>
 				
-				<label for="exampleInputEmail1" class="form-label">Email</label>
+				<label for="exampleInputEmail1" class="form-label text-light">Email</label>
 					<input type="email" class="form-control" id="exampleInputEmail1" name="mail" aria-describedby="emailHelp">
 
-				<label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+				<label for="exampleFormControlTextarea1" class="form-label text-light">Comentario</label>
 					<textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>
 					</br>
-					<button type="submit" class="btn btn-info">Enviar</button>
+					<button type="submit" class="btn btn-secondary">Enviar</button>
 			</form>
 			</div>
 		</div>
@@ -639,8 +618,7 @@
 	</footer>
     <!--Fin footer -->
 	<script src="eventos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     </div>
 </body>
